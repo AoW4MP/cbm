@@ -1,2 +1,2 @@
-# aow4db
+# Competitive Balance Mod Wiki
  
