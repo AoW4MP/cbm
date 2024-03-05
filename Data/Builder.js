@@ -220,44 +220,44 @@ function GetSpellTierAndName(id) {
 
 function ShowUnitFromLink() {
     var unitID = searchParams.get('unit');
-    document.title = "Age of Wonders 4 Database - " + GetUnitTierAndName(unitID).split(">")[2];
+    document.title = "Age of Wonders 4 CBM - " + GetUnitTierAndName(unitID).split(">")[2];
     showUnitFromString(unitID, "dataHolder");
 }
 
 function ShowSpellFromLink() {
     var spellID = searchParams.get('spell');
     if (spellID != undefined) {
-        document.title = "Age of Wonders 4 Database - " + GetSpellTierAndName(spellID).split(">")[2];
+        document.title = "Age of Wonders 4 CBM - " + GetSpellTierAndName(spellID).split(">")[2];
         showSpellFromString(spellID, "dataHolder");
     }
 
     var SiegeID = searchParams.get('siege');
     if (SiegeID != undefined) {
-        document.title = "Age of Wonders 4 Database - " + "Siege Project";
+        document.title = "Age of Wonders 4 CBM - " + "Siege Project";
         showSiegeProjectFromString(SiegeID, "dataHolder");
     }
 
     var WonderID = searchParams.get('wonder');
     if (WonderID != undefined) {
-        document.title = "Age of Wonders 4 Database - " + "Wonder";
+        document.title = "Age of Wonders 4 CBM - " + "Wonder";
         showWorldStructureFromString(WonderID, "dataHolder");
     }
 
     var TomeID = searchParams.get('tome');
     if (TomeID != undefined) {
-        document.title = "Age of Wonders 4 Database - " + "Tome";
+        document.title = "Age of Wonders 4 CBM - " + "Tome";
         showTomeFromString(TomeID, "dataHolder");
     }
 
     var StrucID = searchParams.get('structure');
     if (StrucID != undefined) {
-        document.title = "Age of Wonders 4 Database - " + "Structure";
+        document.title = "Age of Wonders 4 CBM - " + "Structure";
         showStructureFromString(StrucID, "dataHolder");
     }
 
     var SkillID = searchParams.get('skill');
     if (SkillID != undefined) {
-        document.title = "Age of Wonders 4 Database - " + "Hero Skill";
+        document.title = "Age of Wonders 4 CBM - " + "Hero Skill";
         showHeroSkillFromString(SkillID, "dataHolder");
     }
 

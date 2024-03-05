@@ -133,13 +133,13 @@
  },
  {
   "resid": 4389456579070,
-  "cost": "",
-  "id": "headlong_assault",
-  "description": "<bulletlist><bullet>Units besieging the city take 20 <damagePhysical></damagePhysical> <hyperlink>Physical Damage</hyperlink> at the start of combat.</bullet></bulletlist>",
-  "name": "Headlong Assault",
+  "cost": "200<gold></gold> ",
+  "id": "spare_no_expense!",
+  "description": "Buy expensive materials, hire more personnel, bribe the defenders, spare no expense - just end this boring siege as soon as possible!",
+  "name": "Spare no expense!",
   "siege_health_damage": 5,
   "needs_research_to_unlock": false,
-  "icon": "headlong_assault"
+  "icon": "spare_no_expense!"
  },
  {
   "resid": 4389456579064,

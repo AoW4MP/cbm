@@ -5,13 +5,11 @@
 
 <head>
     <link rel="stylesheet" type="text/css" href="/cbm/Style/style.css">
+    <link rel="stylesheet" type="text/css" href="/cbm/Style/home.style.css">
     <meta charset="UTF-8">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 
     <script>
-        var unitarray = ["scout", "peasant_pikeman", "archer", "bannerman", "defender", "knight"];
-
-
         $("#body").ready(function() {
 
             $("#header").load("/cbm/HTML/header.html", function() {
@@ -20,40 +18,59 @@
         });
 
         function HandlePage() {
-            SetButtonsAndDivs(unitarray, undefined, "unit");
             SetLevelUpStuff();
         }
 
     </script>
 
 
-    <title>Age of Wonders 4 Database - Feudal Units</title>
+    <title>Age of Wonders 4 Wiki - Competitive Balance Mod</title>
 </head>
 
 <body>
-    <div id="header"></div>
-
+    <header id="header"></header>
     <div class="textblocktitle">
-        <img src="/cbm/Icons/Text/feudal.png" height="40px"> Feudal Culture Units <img src="/cbm/Icons/Text/feudal.png" height="40px">
+        <img src="/cbm/Icons/Text/feudal.png" height="40px"> Competitive Balance Mod <img src="/cbm/Icons/Text/feudal.png" height="40px">
     </div>
 
+    <div class="home-container">
+        <div id="buttonHolder" class="loreText">
+            Rising from the ashes, Competitive Balance Mod: Phoenix Edition is here! With more changes balancing different strategies and fixing abusive tricks now you can fight other players on even grounds!
 
-
-    <div class="w3-container">
-        <div id="buttonHolder" class="w3-bar w3-black">
-
+            <ul>
+                <li><b>Important features include:</b></li>
+                <li>
+                    Hero Cap: cities no longer increase your hero cap. Instead everyone needs to build hero cap buildings (like Chosen Destroyers in the base game). It’s recommended to start building it immediately.
+                </li>
+                <li>
+                    Research buildings: are now much more expensive. Think about if your economy can afford going for those.
+                </li>
+                <li>
+                    Stability: positive stability now increases gold, mana and knowledge (!) income (in addition to default food, production and draft). Don’t forget to build taverns and bathhouses for your people! (Don’t worry Dark players, you get even stronger bonuses for NEGATIVE (!!!) stability).
+                </li>
+                <li>
+                    Cultural unit unlock: you now longer need higher levels of town hall to produce T2/3 cultural units. Instead you need draft buildings - Workshop for T2 and Blacksmith for T3. Isn’t that extra draft quite nice if you’re gunning for a better army?
+                </li>
+                <li>
+                    Town hall economy: since town halls stopped unlocking new units, they decided to help build up your empire! They produce knowledge and more gold depending on the level. Raise your population so you unlock and boost those economic powerhouses!
+                </li>
+                <li>
+                    Athletics or mounts: those form traits are much cheaper and provide much-needed overland movement boost for your armies. Strongly consider grabbing either of those.
+                </li>
+                <li>
+                    City defense: defensive structures are stronger and unlock earlier. If you fear being rushed by powerful enemy - turn your cities into impregnable fortresses by building walls and defensive towers. Hide behind those walls and turn the tide of the battle!
+                </li>
+                <li>
+                    <span>Full changelist together can be found here:</span>
+                    <a href="https://docs.google.com/document/d/1MwDE77bMUmxiifCrIKKwj80fICVkoSKa5wH75CQOd8M/edit">Google doc</a>
+                </li>
+                <li>
+                    <span>Incremental changelist (patch history) can be found here:</span>
+                    <a href="https://docs.google.com/document/d/1bptL2suAsmhBsJ-xYGIsKNNe6dTHM4SCkjU0OOIPZrA/edit">Google doc</a>
+                </li>
+            </ul>
         </div>
-        <div id="dataHolder" style="margin-top:-250px">
-        </div>
-
-
     </div>
-
-
-
-
-
-
 </body>
 
 </html>

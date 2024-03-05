@@ -19,12 +19,12 @@
   "front_end": true,
   "icon": "eagle_mounts",
   "type": "form",
-  "display_order": -1
+  "display_order": -2
  },
  {
   "lore_description": "<helpcolor>Mounted units are more common</helpcolor>",
   "biography_description": "They ride to battle on impressive cavalry.",
-  "point_cost": 2,
+  "point_cost": 1,
   "id": "mount_masters",
   "name": "Mount Masters",
   "screen_description": "",
@@ -38,7 +38,7 @@
   "front_end": true,
   "icon": "mount_masters",
   "type": "form",
-  "display_order": 2
+  "display_order": 1
  },
  {
   "biography_description": "They share a deep kinship with mighty Elephants.",
@@ -50,7 +50,7 @@
   "screen_description": "",
   "effect_descriptions": [
    {
-    "name": "+15 <hyperlink><hp></hp> Hit Points</hyperlink>."
+    "name": "+20 <hyperlink><hp></hp> Hit Points</hyperlink>."
    },
    {
     "name": "Gain the Juggernaut ability."
@@ -67,7 +67,7 @@
   "group_name": "MOUNT",
   "front_end": true,
   "icon": "elephant_mounts",
-  "display_order": 0
+  "display_order": -1
  },
  {
   "biography_description": "They have tamed the furry Mammoths from the tundra.",
@@ -79,7 +79,7 @@
   "screen_description": "",
   "effect_descriptions": [
    {
-    "name": "+10 <hyperlink><hp></hp> Hit Points</hyperlink>."
+    "name": "+15 <hyperlink><hp></hp> Hit Points</hyperlink>."
    },
    {
     "name": "+4 <defensefrost></defensefrost> <hyperlink>Frost Resistance</hyperlink>."
@@ -99,7 +99,7 @@
   "group_name": "MOUNT",
   "front_end": true,
   "icon": "mammoth_mounts",
-  "display_order": 0
+  "display_order": -1
  },
  {
   "lore_description": "<helpcolor>Units can consume plants in order to heal and strengthen themselves.</helpcolor>",
@@ -118,7 +118,7 @@
   "front_end": true,
   "icon": "herbivore",
   "type": "form",
-  "display_order": 4
+  "display_order": 3
  },
  {
   "lore_description": "<helpcolor>Deal more damage to enemies surrounded by your units.</helpcolor>",
@@ -169,15 +169,15 @@
  },
  {
   "biography_description": "They made friends with the Dire Bears.",
-  "lore_description": "<helpcolor>Mounted units are more common and gain a Dire Bear mount </helpcolor>",
+  "lore_description": "<helpcolor>Mounted units are more common and gain a Unicorn mount.</helpcolor>",
   "DLC": "EMPIRESANDASHES ",
-  "point_cost": 3,
+  "point_cost": 2,
   "id": "dire_bear_mounts",
   "name": "Dire Bear Mounts",
   "screen_description": "",
   "effect_descriptions": [
    {
-    "name": "+10 <hyperlink><hp></hp> Hit Points</hyperlink>."
+    "name": "+5 <hyperlink><hp></hp> Hit Points</hyperlink>."
    },
    {
     "name": "Gains the Overwhelm passive."
@@ -205,7 +205,7 @@
   "screen_description": "",
   "effect_descriptions": [
    {
-    "name": "Unit has +1 <hyperlink>Vision Range</hyperlink> and <hyperlink>Sensing Range</hyperlink>."
+    "name": "Unit has +3 <hyperlink>Vision Range</hyperlink> and <hyperlink>Sensing Range</hyperlink>."
    }
   ],
   "enabled": true,
@@ -213,12 +213,12 @@
   "front_end": true,
   "icon": "sharp_eyes",
   "type": "form",
-  "display_order": 5
+  "display_order": 4
  },
  {
   "lore_description": "<helpcolor>Allows for better positioning by being able to move through friendly units.</helpcolor>",
   "biography_description": "They move past their own troops with ease.",
-  "point_cost": 2,
+  "point_cost": 1,
   "id": "light_footed",
   "name": "Light Footed",
   "screen_description": "",
@@ -237,7 +237,7 @@
  {
   "lore_description": "<helpcolor>Reduces the resistance to magic and status effects of nearby units.</helpcolor>",
   "biography_description": "They have a grisly stench following them.",
-  "point_cost": 3,
+  "point_cost": 2,
   "id": "hideous_stench",
   "name": "Hideous Stench",
   "screen_description": "",
@@ -251,7 +251,7 @@
   "front_end": true,
   "icon": "hideous_stench",
   "type": "form",
-  "display_order": 1
+  "display_order": 3
  },
  {
   "affinities": [
@@ -267,10 +267,10 @@
   "screen_description": "",
   "effect_descriptions": [
    {
-    "name": "<hyperlink>Cities</hyperlink> gain <bulletlist><bullet>+20% <food></food> <hyperlink>Food</hyperlink> if the city core province contains Grasslands or Fungus Fields.</bullet><bullet>+20% <structureprod></structureprod> <hyperlink>Production</hyperlink> if the city core province contains Forest, Rocky or Mountains.</bullet><bullet>+10% <gold></gold> <hyperlink>Gold</hyperlink> if the city core province contains Ashlands.</bullet><bullet>+10% <mana></mana> <hyperlink>Mana</hyperlink> if the city core province contains Snow, Ice or Sand.</bullet></bulletlist>"
+    "name": "<hyperlink>Cities</hyperlink> gain <bulletlist><bullet>+30% <food></food> <hyperlink>Food</hyperlink> if the city core province contains Grasslands or Fungus Fields.</bullet><bullet>+30% <structureprod></structureprod> <hyperlink>Production</hyperlink> if the city core province contains Forest, Rocky or Mountains.</bullet><bullet>+15% <gold></gold> <hyperlink>Gold</hyperlink> if the city core province contains Ashlands.</bullet><bullet>+15% <mana></mana> <hyperlink>Mana</hyperlink> if the city core province contains Snow, Ice or Sand.</bullet></bulletlist>"
    },
    {
-    "name": "Terraforming spells cost -25% less <mana></mana> <hyperlink>Mana</hyperlink> and <caststrategic></caststrategic> <hyperlink>World Map Casting Point</hyperlink> to cast."
+    "name": "Terraforming spells cost -50% less <mana></mana> <hyperlink>Mana</hyperlink> and <caststrategic></caststrategic> <hyperlink>World Map Casting Point</hyperlink> to cast."
    },
    {
     "name": "-20% <hyperlink>Unit Upkeep</hyperlink> for Elemental Units."
@@ -308,7 +308,13 @@
   "screen_description": "",
   "effect_descriptions": [
    {
+    "name": "All racial units gain Slave Collars ability."
+   },
+   {
     "name": "<hyperlink>Routing</hyperlink> <hyperlink>Units</hyperlink> are <hyperlink>Captured</hyperlink> if your side is victorious in <hyperlink>Combat</hyperlink>."
+   },
+   {
+    "name": "Adding captured units to your army is much cheaper."
    },
    {
     "name": "-10 <evilact></evilact> <hyperlink>Alignment</hyperlink>"
@@ -360,7 +366,7 @@
   "screen_description": "",
   "effect_descriptions": [
    {
-    "name": "Gain 2 <influence></influence> <hyperlink>Imperium</hyperlink> for each <hyperlink>Empire</hyperlink> <hyperlink>Unit</hyperlink> killed after successful combat.<br></br>This reward increases by +1 for each level of <evilact></evilact>evil <hyperlink>Alignment</hyperlink> of the Faction they belonged to."
+    "name": "Gain 1 <influence></influence> <hyperlink>Imperium</hyperlink> for each <hyperlink>Unit</hyperlink> killed after successful combat. This reward increases to 4 if they belong to the <hyperlink>Empire</hyperlink> and further by +2 for each level of <evilact></evilact>evil <hyperlink>Alignment</hyperlink> of the Faction they belonged to."
    },
    {
     "name": "Gain +30 <casusBelli></casusBelli> <hyperlink>Grievances</hyperlink> against players with an <evilact></evilact>evil <hyperlink>Alignment</hyperlink>."
@@ -398,7 +404,7 @@
   "screen_description": "",
   "effect_descriptions": [
    {
-    "name": "<hyperlink>Cities</hyperlink> gain +15% <knowledge></knowledge><hyperlink>Knowledge</hyperlink>, +15% <food></food> <hyperlink>Food</hyperlink>, +15% <structureprod></structureprod> <hyperlink>Production</hyperlink> and +20 <happiness></happiness> <hyperlink>City Stability</hyperlink> income when their <hyperlink>Domain</hyperlink> does not border the <hyperlink>Domain</hyperlink> of any other <hyperlink>City</hyperlink> or <hyperlink>Outpost</hyperlink>."
+    "name": "<hyperlink>Cities</hyperlink> gain +15% <knowledge></knowledge><hyperlink>Knowledge</hyperlink>, +15% <food></food> <hyperlink>Food</hyperlink>, +15% <structureprod></structureprod> <hyperlink>Production</hyperlink>, and +20 <happiness></happiness> <hyperlink>City Stability</hyperlink> income when their <hyperlink>Domain</hyperlink> does not border the <hyperlink>Domain</hyperlink> of any other <hyperlink>City</hyperlink> or <hyperlink>Outpost</hyperlink>."
    },
    {
     "name": "Grievances inflicted by other empires encroaching on your territory are increased by +100%."
@@ -509,7 +515,7 @@
   ],
   "starting_bonuses": [
    {
-    "description": "Start with the nearest <minorcity></minorcity><hyperlink>Free City</hyperlink> revealed and gain +25 <hyperlink><allegiance></allegiance>Allegiance</hyperlink> with them."
+    "description": "Start with the nearest <minorcity></minorcity><hyperlink>Free City</hyperlink> revealed and gain +45 <hyperlink><allegiance></allegiance>Allegiance</hyperlink> with them."
    }
   ],
   "icon": "_pantheon___bannerlords"
@@ -560,13 +566,10 @@
   "screen_description": "",
   "effect_descriptions": [
    {
-    "name": "City Structures cost 100% more <structureprod></structureprod> Production but grant +1 <happiness></happiness> City Stability and +5 <gold></gold> Gold in addition to their normal effects."
+    "name": "City Structures cost 50% more <structureprod></structureprod> Production but grant +2 <happiness></happiness> City Stability and +5 <gold></gold> Gold in addition to their normal effects."
    },
    {
     "name": "Racial <hyperlink>Unit tier</hyperlink> 3 Units have +1 Rank"
-   },
-   {
-    "name": "<hyperlink>City Cap</hyperlink> is decreased by -1<citytier></citytier>."
    }
   ],
   "enabled": true,
@@ -595,7 +598,7 @@
   "screen_description": "",
   "effect_descriptions": [
    {
-    "name": "<hyperlink>Cities</hyperlink> gain +5 <gold></gold> <hyperlink>Gold</hyperlink>, <mana></mana> <hyperlink>Mana</hyperlink>, <knowledge></knowledge><hyperlink>Knowledge</hyperlink>, <food></food> <hyperlink>Food</hyperlink>, <structureprod></structureprod> <hyperlink>Production</hyperlink>, and <unitprod></unitprod> <hyperlink>Draft</hyperlink> for each <hyperlink>Magic Material</hyperlink> in their <hyperlink>Domain</hyperlink>."
+    "name": "<hyperlink>Cities</hyperlink> gain +7 <gold></gold> <hyperlink>Gold</hyperlink>, <mana></mana> <hyperlink>Mana</hyperlink>, <knowledge></knowledge><hyperlink>Knowledge</hyperlink>, <food></food> <hyperlink>Food</hyperlink>, <structureprod></structureprod> <hyperlink>Production</hyperlink>, and <unitprod></unitprod> <hyperlink>Draft</hyperlink> for each <hyperlink>Magic Material</hyperlink> in their <hyperlink>Domain</hyperlink>."
    }
   ],
   "enabled": true,
@@ -1008,7 +1011,7 @@
  {
   "lore_description": "<helpcolor>Units at low health will still deal a lot of damage.</helpcolor>",
   "biography_description": "The more they are pushed to the edge, the harder they will fight.",
-  "point_cost": 2,
+  "point_cost": 1,
   "id": "tenacious",
   "name": "Tenacious",
   "screen_description": "",
@@ -1046,7 +1049,7 @@
  {
   "lore_description": "<helpcolor>Units normally only have 32 movement.</helpcolor>",
   "biography_description": "Trained in long distance running, they are exceptionally fast.",
-  "point_cost": 3,
+  "point_cost": 2,
   "id": "athletics",
   "name": "Athletics",
   "screen_description": "",
@@ -1056,11 +1059,11 @@
    }
   ],
   "enabled": true,
-  "group_name": "",
+  "group_name": "MOUNT",
   "front_end": true,
   "icon": "athletics",
   "type": "form",
-  "display_order": 1
+  "display_order": 0
  },
  {
   "lore_description": "<helpcolor>Units become tougher when standing next to allies.</helpcolor>",
@@ -1117,7 +1120,7 @@
   "front_end": true,
   "icon": "bulwark",
   "type": "form",
-  "display_order": 4
+  "display_order": 3
  },
  {
   "lore_description": "<helpcolor>Useful for armies focusing on battle mages.</helpcolor>",
@@ -1136,21 +1139,18 @@
   "front_end": true,
   "icon": "arcane_focus",
   "type": "form",
-  "display_order": 4
+  "display_order": 3
  },
  {
   "lore_description": "<helpcolor>Units are less likely to be affected by negative status effects and shrug them off faster.</helpcolor>",
   "biography_description": "Their natural resilience makes them less likely to be affected by magic.",
-  "point_cost": 3,
+  "point_cost": 1,
   "id": "resilient",
   "name": "Resilient",
   "screen_description": "",
   "effect_descriptions": [
    {
-    "name": "+2 Status Resistance."
-   },
-   {
-    "name": "Negative status effects last -1 <turn></turn> Turn, with a minimum of 1."
+    "name": "+3 Status Resistance."
    }
   ],
   "enabled": true,
@@ -1158,7 +1158,7 @@
   "front_end": true,
   "icon": "resilient",
   "type": "form",
-  "display_order": 1
+  "display_order": 4
  },
  {
   "lore_description": "<helpcolor>Your units can take a little more damage.</helpcolor>",
@@ -1169,7 +1169,7 @@
   "screen_description": "",
   "effect_descriptions": [
    {
-    "name": "+8 <hyperlink><hp></hp> Hit Points</hyperlink>."
+    "name": "+5 <hyperlink><hp></hp> Hit Points</hyperlink>."
    }
   ],
   "enabled": true,
@@ -1177,7 +1177,7 @@
   "front_end": true,
   "icon": "hardy",
   "type": "form",
-  "display_order": 5
+  "display_order": 4
  },
  {
   "biography_description": "They are talented spies, sneaking past enemy lines to gain precious information.",
@@ -1203,6 +1203,9 @@
    },
    {
     "name": "<hyperlink>Outposts</hyperlink> start with the Watch Tower upgrade built."
+   },
+   {
+    "name": "Racial Scout Units have Legend Rank."
    }
   ],
   "enabled": true,
@@ -1242,7 +1245,7 @@
     "name": "Racial Battle Mage Units and Support Units have +1 Rank."
    },
    {
-    "name": "Battle Mage Units and Support Units provide +5 <optactical></optactical> <hyperlink> Combat Casting Points</hyperlink> at the start of combat."
+    "name": "Battle Mage Units and Support Units increase tactical spells damage by +6% per unit. This effect stacks."
    }
   ],
   "enabled": true,
@@ -1274,7 +1277,7 @@
   "screen_description": "",
   "effect_descriptions": [
    {
-    "name": "Cities gain +10 <unitprod></unitprod> Draft and your empire gains +5 <influence></influence> Imperium per level of Evil Alignment."
+    "name": "Cities gain +10 <unitprod></unitprod> Draft, +5 <gold></gold> Gold and your empire gains +5 <influence></influence> Imperium per level of Evil Alignment."
    },
    {
     "name": "-10 <evilact></evilact> <hyperlink>Alignment</hyperlink>"
@@ -1315,7 +1318,7 @@
     "name": "Ancient Wonders do not require <population></population> Population in order to be annexed to a City."
    },
    {
-    "name": "Cities gain +20% <structureprod></structureprod> <hyperlink>Production</hyperlink> per annexed <hyperlink>Ancient Wonders</hyperlink>."
+    "name": "Cities gain +30% <structureprod></structureprod> <hyperlink>Production</hyperlink> per annexed <hyperlink>Ancient Wonders</hyperlink>."
    }
   ],
   "enabled": true,
@@ -1347,7 +1350,7 @@
     "name": "<caststrategic></caststrategic> Unit Enchantment Research cost -30% <knowledge></knowledge> Knowledge to unlock."
    },
    {
-    "name": "<caststrategic></caststrategic> <hyperlink>Unit Enchantments</hyperlink> cost -30% upkeep."
+    "name": "<caststrategic></caststrategic> <hyperlink>Unit Enchantments</hyperlink> cost -60% upkeep."
    },
    {
     "name": "Racial Shield Units and Polearm Units have +1 Rank."
@@ -1379,10 +1382,10 @@
   "screen_description": "",
   "effect_descriptions": [
    {
-    "name": "Quarries yield +2 <gold></gold> <hyperlink>Gold</hyperlink>."
+    "name": "Quarries yield +5 <structureprod></structureprod> <hyperlink>Production</hyperlink> +2 <gold></gold> <hyperlink>Gold</hyperlink>."
    },
    {
-    "name": "Special Province Improvements cost -50% <structureprod></structureprod> Production."
+    "name": "Special Province Improvements cost -50% <structureprod></structureprod> <hyperlink>Production</hyperlink> and <gold></gold> <hyperlink>Gold</hyperlink>."
    }
   ],
   "enabled": true,
@@ -1414,7 +1417,7 @@
   "screen_description": "",
   "effect_descriptions": [
    {
-    "name": "Coast, River, and Underground Lake provinces yield +2 <gold></gold> Gold, +2 <food></food> Food, and +2 <unitprod></unitprod> Draft."
+    "name": "Coast, River, and Underground Lake provinces yield +4 <gold></gold> Gold, +4 <food></food> Food, and +4 <unitprod></unitprod> Draft."
    },
    {
     "name": "Embarked units:<bulletlist><bullet>Deal +20% damage</bullet><bullet>Gain +20% <hyperlink><xp></xp> Experience</hyperlink></bullet></bulletlist>"
@@ -1446,7 +1449,7 @@
   "screen_description": "",
   "effect_descriptions": [
    {
-    "name": "Founding cities costs -25% less <influence></influence> <hyperlink>Imperium</hyperlink>."
+    "name": "Founding cities costs -40% less <influence></influence> <hyperlink>Imperium</hyperlink>."
    },
    {
     "name": "Newly founded cities gain +1 <population></population> <hyperlink>Population</hyperlink>."
@@ -1516,6 +1519,11 @@
   "icon": "guardians_of_nature__goodact__"
  },
  {
+  "affinities": [
+   {
+    "name": "1<nature></nature> Nature Affinity"
+   }
+  ],
   "biography_description": "They are legendary hunters, excelling in ranged combat and exploration.",
   "lore_description": "They are legendary hunters, excelling in ranged combat and exploration.",
   "point_cost": 1,
@@ -1534,17 +1542,7 @@
   "type": "society",
   "group_name": "",
   "front_end": true,
-  "incompatible_cultures": [
-   {
-    "name": "Mystic"
-   }
-  ],
   "display_order": 3,
-  "affinities": [
-   {
-    "name": "1<nature></nature> Nature Affinity"
-   }
-  ],
   "starting_bonuses": [
    {
     "description": "Start with an extra Ranged Unit."
@@ -1566,7 +1564,7 @@
   "screen_description": "",
   "effect_descriptions": [
    {
-    "name": "Summoning Spells cost -50% <mana></mana> Mana to cast."
+    "name": "Summoning Spells cost -50% <mana></mana> Mana and -25% <caststrategic></caststrategic> World Map Casting Points to cast."
    },
    {
     "name": "Summoned Magic Origin units have +1 Rank."
@@ -1607,7 +1605,7 @@
     "name": "+10 <caststrategic></caststrategic> World Map Casting Points."
    },
    {
-    "name": "<hyperlink>Combat Spells</hyperlink> cost -20% less <mana></mana> <hyperlink>Mana</hyperlink> to cast."
+    "name": "<hyperlink>Combat Spells</hyperlink> cost 20% less <mana></mana> <hyperlink>Mana</hyperlink> and <optactical></optactical> Combat Casting Points to cast."
    }
   ],
   "enabled": true,
@@ -1622,7 +1620,7 @@
   ],
   "starting_bonuses": [
    {
-    "description": "Start with 1 extra Combat Spell unlocked."
+    "description": "100<mana></mana> 50<knowledge></knowledge> "
    }
   ],
   "icon": "gifted_casters"
@@ -1650,7 +1648,7 @@
     "name": "-10 <evilact></evilact> <hyperlink>Alignment</hyperlink>"
    },
    {
-    "name": "The nearest City owned gains +3 <mana></mana> <hyperlink>Mana</hyperlink> and +3 <food></food> <hyperlink>Food</hyperlink> per tier of non-Magic Origin units killed or lost after successful combat."
+    "name": "The nearest City owned gains +6 <mana></mana> <hyperlink>Mana</hyperlink> and +6 <food></food> <hyperlink>Food</hyperlink> per tier of units killed or lost after successful combat."
    }
   ],
   "enabled": true,
@@ -1677,7 +1675,7 @@
   "screen_description": "",
   "effect_descriptions": [
    {
-    "name": "The nearest City owned gains +3 <gold></gold> <hyperlink>Gold</hyperlink> and +3 <unitprod></unitprod> <hyperlink>Draft</hyperlink> per tier of units killed after successful combat."
+    "name": "The nearest City owned gains +6 <gold></gold> <hyperlink>Gold</hyperlink> and +6 <unitprod></unitprod> <hyperlink>Draft</hyperlink> per tier of units killed after successful combat."
    },
    {
     "name": "-10 <evilact></evilact> <hyperlink>Alignment</hyperlink>"
@@ -1690,7 +1688,7 @@
   "display_order": 5,
   "starting_bonuses": [
    {
-    "description": "Get 2 random hero items."
+    "empire_progression_slug": "skilled_raiders"
    }
   ],
   "icon": "ruthless_raiders__evilact__"
@@ -1709,7 +1707,7 @@
   "screen_description": "",
   "effect_descriptions": [
    {
-    "name": "The <hyperlink>Throne City</hyperlink> and cities that share a border with the Throne City gain +20 <happiness></happiness> <hyperlink>City Stability</hyperlink> and +20 <gold></gold> <hyperlink>Gold</hyperlink> income."
+    "name": "The <hyperlink>Throne City</hyperlink> and cities that share a border with the Throne City gain +20 <happiness></happiness> <hyperlink>City Stability</hyperlink> and +30 <gold></gold> <hyperlink>Gold</hyperlink> income."
    }
   ],
   "enabled": true,
@@ -1749,7 +1747,7 @@
   "screen_description": "",
   "effect_descriptions": [
    {
-    "name": "Cities gain +10 <happiness></happiness> <hyperlink>City Stability</hyperlink> and your empire gains +5 <influence></influence> Imperium per level of Good Alignment."
+    "name": "Cities gain +10 <happiness></happiness> <hyperlink>City Stability</hyperlink>, +20 <gold></gold> <hyperlink>Gold</hyperlink> and your empire gains +5 <influence></influence> Imperium per level of Good Alignment."
    },
    {
     "name": "+10 <goodact></goodact> <hyperlink>Alignment</hyperlink>"
@@ -1792,10 +1790,10 @@
   "screen_description": "",
   "effect_descriptions": [
    {
-    "name": "<hyperlink>Cities</hyperlink> require -10% <food></food> <hyperlink>Food</hyperlink> for gaining a new <population></population> <hyperlink>Population</hyperlink>."
+    "name": "<hyperlink>Cities</hyperlink> require -30% <food></food> <hyperlink>Food</hyperlink> for gaining a new <population></population> <hyperlink>Population</hyperlink>."
    },
    {
-    "name": "Racial Tier I units have +1 Rank."
+    "name": "Racial Tier I and II units have +1 Rank."
    },
    {
     "name": "Non-Magic Origin units require -20% <hyperlink>Unit Upkeep</hyperlink>."
@@ -1808,15 +1806,15 @@
   "display_order": 5,
   "starting_bonuses": [
    {
-    "description": "Start with an extra Tier I unit."
+    "description": "Start with two extra Tier I units."
    }
   ],
   "icon": "prolific_swarmers"
  },
  {
-  "lore_description": "<helpcolor>Mounted units are more common and gain a Wolf mount.</helpcolor>",
+  "lore_description": "<helpcolor>Mounted units are more common and gain a Unicorn mount.</helpcolor>",
   "biography_description": "They have made companions of the White Wolves.",
-  "point_cost": 3,
+  "point_cost": 2,
   "id": "white_wolf_mounts",
   "name": "White Wolf Mounts",
   "screen_description": "",
@@ -1847,7 +1845,7 @@
  {
   "lore_description": "<helpcolor>Mounted units are more common and gain a Nightmare mount.</helpcolor>",
   "biography_description": "They have tamed the Flaming Horses of the Inferno.",
-  "point_cost": 3,
+  "point_cost": 2,
   "id": "nightmare_mounts",
   "name": "Nightmare Mounts",
   "screen_description": "",
@@ -1878,7 +1876,7 @@
  {
   "lore_description": "<helpcolor>Great for fighting enemies up close.</helpcolor>",
   "biography_description": "They hone their reflexes and will not let their enemy walk away from a fight unscathed.",
-  "point_cost": 2,
+  "point_cost": 1,
   "id": "ferocious",
   "name": "Ferocious",
   "screen_description": "",
@@ -1911,12 +1909,12 @@
   "front_end": true,
   "icon": "strong",
   "type": "form",
-  "display_order": 4
+  "display_order": 3
  },
  {
   "lore_description": "<helpcolor>Reduce damage from magical attacks.</helpcolor>",
   "biography_description": "They have a natural armor against magical damage.",
-  "point_cost": 2,
+  "point_cost": 3,
   "id": "resistant",
   "name": "Resistant",
   "screen_description": "",
@@ -1930,7 +1928,7 @@
   "front_end": true,
   "icon": "resistant",
   "type": "form",
-  "display_order": 4
+  "display_order": 2
  },
  {
   "biography_description": "They harbor knowledge dating back to the beginning of time.",
@@ -1964,7 +1962,7 @@
   ],
   "starting_bonuses": [
    {
-    "description": "1 random research skill is already unlocked."
+    "description": "100<knowledge></knowledge> "
    }
   ],
   "icon": "ancient_wise_ones"
@@ -2124,7 +2122,7 @@
  {
   "lore_description": "<helpcolor>Mounted units are more common and gain a Unicorn mount.</helpcolor>",
   "biography_description": "They share a deep kinship with Unicorns.",
-  "point_cost": 3,
+  "point_cost": 2,
   "id": "unicorn_mounts",
   "name": "Unicorn Mounts",
   "screen_description": "",
@@ -2152,7 +2150,7 @@
  {
   "lore_description": "<helpcolor>Mounted units are more common and gain a Spider mount.</helpcolor>",
   "biography_description": "They share a deep kinship with Spiders.",
-  "point_cost": 3,
+  "point_cost": 2,
   "id": "dread_spider_mounts",
   "name": "Dread Spider Mounts",
   "screen_description": "",
@@ -2189,7 +2187,7 @@
     "name": "+2 <defenseblight></defenseblight> <hyperlink>Blight Resistance</hyperlink>."
    },
    {
-    "name": "Melee attackers have a base 60% chance of becoming Poisoned."
+    "name": "Melee attackers have a base 90% chance of becoming Poisoned."
    },
    {
     "name": "Immunity to becoming Poisoned."
@@ -2200,7 +2198,7 @@
   "front_end": true,
   "icon": "poisonous",
   "type": "form",
-  "display_order": 4
+  "display_order": 3
  },
  {
   "lore_description": "<helpcolor>Units are less likely to rout.</helpcolor>",
@@ -2219,7 +2217,7 @@
   "front_end": true,
   "icon": "cold_blooded",
   "type": "form",
-  "display_order": 5
+  "display_order": 4
  },
  {
   "lore_description": "<helpcolor>Units grow strong at a faster rate from winning fights.</helpcolor>",
@@ -2230,7 +2228,7 @@
   "screen_description": "",
   "effect_descriptions": [
    {
-    "name": "Non-hero units gain +20% <hyperlink><xp></xp> Experience</hyperlink>."
+    "name": "Non-hero units gain +50% <hyperlink><xp></xp> Experience</hyperlink>."
    }
   ],
   "enabled": true,
@@ -2238,7 +2236,7 @@
   "front_end": true,
   "icon": "adaptable",
   "type": "form",
-  "display_order": 5
+  "display_order": 4
  },
  {
   "lore_description": "<helpcolor>Rewards smart positioning in combat.</helpcolor>",
@@ -2257,7 +2255,7 @@
   "front_end": true,
   "icon": "sneaky",
   "type": "form",
-  "display_order": 4
+  "display_order": 3
  },
  {
   "lore_description": "<helpcolor>Useful for approaching enemy ranged units.</helpcolor>",
@@ -2276,7 +2274,7 @@
   "front_end": true,
   "icon": "quick_reflexes",
   "type": "form",
-  "display_order": 4
+  "display_order": 3
  },
  {
   "lore_description": "<helpcolor>Ranged shots hit more often.</helpcolor>",
@@ -2295,12 +2293,12 @@
   "front_end": true,
   "icon": "keen-sighted",
   "type": "form",
-  "display_order": 4
+  "display_order": 3
  },
  {
   "lore_description": "<helpcolor>Units take less damage from physical attacks.</helpcolor>",
   "biography_description": "They are tough and used to taking a few hits in battle.",
-  "point_cost": 2,
+  "point_cost": 3,
   "id": "tough",
   "name": "Tough",
   "screen_description": "",
@@ -2314,12 +2312,12 @@
   "front_end": true,
   "icon": "tough",
   "type": "form",
-  "display_order": 4
+  "display_order": 2
  },
  {
   "lore_description": "<helpcolor>Armies can fight longer on the world map.</helpcolor>",
   "biography_description": "Their blood is strong, which allows them to recuperate from wounds faster than others.",
-  "point_cost": 2,
+  "point_cost": 1,
   "id": "fast_recuperation",
   "name": "Fast Recuperation",
   "screen_description": "",
