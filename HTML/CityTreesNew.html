@@ -1,10 +1,10 @@
 <!DOCTYPE HTML>
 <html lang="en">
 
-<link rel="shortcut icon" type="image/x-icon" href="/aow4db/favicon.ico" />
+<link rel="shortcut icon" type="image/x-icon" href="/cbm/favicon.ico" />
 
 <head>
-    <link rel="stylesheet" type="text/css" href="/aow4db/Style/style.css">
+    <link rel="stylesheet" type="text/css" href="/cbm/Style/style.css">
     <meta charset="UTF-8">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 
@@ -237,7 +237,7 @@
 
         $("#body").ready(function() {
 
-            $("#header").load("/aow4db/HTML/header.html", function() {
+            $("#header").load("/cbm/HTML/header.html", function() {
                 CheckData();
             });
         });
@@ -290,7 +290,7 @@
             var newNodeBackground = document.createElement("DIV");
 
             var img = document.createElement("IMG");
-            img.setAttribute("src", "/aow4db/Icons/UpgradeIcons/" + structureInfo.id + ".png");
+            img.setAttribute("src", "/cbm/Icons/UpgradeIcons/" + structureInfo.id + ".png");
             img.setAttribute("height", "60px");
             img.className = "structureNodeIcon";
             newNode.setAttribute("id", structureInfo.id);
@@ -313,7 +313,7 @@
 
                 if (splits[4] == "mystic") {
 
-                    newNodeBackground.style.backgroundImage = "url(\"/aow4db/Icons/Text/mystic.png\")";
+                    newNodeBackground.style.backgroundImage = "url(\"/cbm/Icons/Text/mystic.png\")";
                     newNodeBackground.style.backgroundRepeat = "no-repeat";
                     newNodeBackground.style.backgroundPositionX = "140px";
                     newNodeBackground.style.backgroundSize = "80px";
@@ -321,7 +321,7 @@
                     spa.innerHTML = "<span style=\"color:  #9bc6ff;\">⤷" + name.toUpperCase() + "</span>" + "<br>";
                 }
                 if (splits[4] == "barbarian") {
-                    newNodeBackground.style.backgroundImage = "url(\"/aow4db/Icons/Text/barbarian.png\")";
+                    newNodeBackground.style.backgroundImage = "url(\"/cbm/Icons/Text/barbarian.png\")";
                     newNodeBackground.style.backgroundRepeat = "no-repeat";
                     newNodeBackground.style.backgroundPositionX = "140px";
                     newNodeBackground.style.backgroundSize = "80px";
@@ -329,7 +329,7 @@
                     spa.innerHTML = "<span style=\"color:  red;\">⤷" + name.toUpperCase() + "</span>" + "<br>";
                 }
                 if (splits[4] == "high") {
-                    newNodeBackground.style.backgroundImage = "url(\"/aow4db/Icons/Text/high.png\")";
+                    newNodeBackground.style.backgroundImage = "url(\"/cbm/Icons/Text/high.png\")";
                     newNodeBackground.style.backgroundRepeat = "no-repeat";
                     newNodeBackground.style.backgroundPositionX = "140px";
                     newNodeBackground.style.backgroundSize = "80px";
@@ -337,7 +337,7 @@
                     spa.innerHTML = "<span style=\"color:  yellow;\">⤷" + name.toUpperCase() + "</span>" + "<br>";
                 }
                 if (splits[4] == "feudal") {
-                    newNodeBackground.style.backgroundImage = "url(\"/aow4db/Icons/Text/feudal.png\")";
+                    newNodeBackground.style.backgroundImage = "url(\"/cbm/Icons/Text/feudal.png\")";
                     newNodeBackground.style.backgroundRepeat = "no-repeat";
                     newNodeBackground.style.backgroundPositionX = "140px";
                     newNodeBackground.style.backgroundSize = "80px";
@@ -345,7 +345,7 @@
                     spa.innerHTML = "<span style=\"color:  grey;\">⤷" + name.toUpperCase() + "</span>" + "<br>";
                 }
                 if (splits[4] == "dark") {
-                    newNodeBackground.style.backgroundImage = "url(\"/aow4db/Icons/Text/dark.png\")";
+                    newNodeBackground.style.backgroundImage = "url(\"/cbm/Icons/Text/dark.png\")";
                     newNodeBackground.style.backgroundRepeat = "no-repeat";
                     newNodeBackground.style.backgroundPositionX = "140px";
                     newNodeBackground.style.backgroundSize = "80px";
@@ -353,7 +353,7 @@
                     spa.innerHTML = "<span style=\"color:  #e92fe9;\">⤷" + name.toUpperCase() + "</span>" + "<br>";
                 }
                 if (splits[4] == "industrious") {
-                    newNodeBackground.style.backgroundImage = "url(\"/aow4db/Icons/Text/industrious.png\")";
+                    newNodeBackground.style.backgroundImage = "url(\"/cbm/Icons/Text/industrious.png\")";
                     newNodeBackground.style.backgroundRepeat = "no-repeat";
                     newNodeBackground.style.backgroundPositionX = "140px";
                     newNodeBackground.style.backgroundSize = "80px";
@@ -361,7 +361,7 @@
                     spa.innerHTML = "<span style=\"color:  orange;\">⤷" + name.toUpperCase() + "</span>" + "<br>";
                 }
                 if (splits[4] == "reaver") {
-                    newNodeBackground.style.backgroundImage = "url(\"/aow4db/Icons/Text/reaver.png\")";
+                    newNodeBackground.style.backgroundImage = "url(\"/cbm/Icons/Text/reaver.png\")";
                     newNodeBackground.style.backgroundRepeat = "no-repeat";
                     newNodeBackground.style.backgroundPositionX = "140px";
                     newNodeBackground.style.backgroundSize = "80px";
@@ -369,7 +369,7 @@
                     spa.innerHTML = "<span style=\"color:  yellow;\">⤷" + name.toUpperCase() + "</span>" + "<br>";
                 }
                 if (splits[4] == "primal") {
-                    newNodeBackground.style.backgroundImage = "url(\"/aow4db/Icons/Text/primal.png\")";
+                    newNodeBackground.style.backgroundImage = "url(\"/cbm/Icons/Text/primal.png\")";
                     newNodeBackground.style.backgroundRepeat = "no-repeat";
                     newNodeBackground.style.backgroundPositionX = "140px";
                     newNodeBackground.style.backgroundSize = "80px";
@@ -379,7 +379,7 @@
 
                 if (splits[4] == "throne") {
                     newNodeBackground.setAttribute("style", "left:0px; top:0px; width:220px");
-                    newNodeBackground.style.backgroundImage = "url(\"/aow4db/Icons/Text/throne.png\")";
+                    newNodeBackground.style.backgroundImage = "url(\"/cbm/Icons/Text/throne.png\")";
                     newNodeBackground.style.backgroundRepeat = "no-repeat";
                     newNodeBackground.style.backgroundPositionX = "140px";
                     newNodeBackground.style.backgroundSize = "80px";
@@ -387,7 +387,7 @@
                     spa.innerHTML = "<span style=\"color:  yellow;\">" + name.toUpperCase() + "</span>" + "<br>";
                 }
                 if (splits[4] == "order") {
-                    newNodeBackground.style.backgroundImage = "url(\"/aow4db/Icons/Text/order.png\")";
+                    newNodeBackground.style.backgroundImage = "url(\"/cbm/Icons/Text/order.png\")";
                     newNodeBackground.style.backgroundRepeat = "no-repeat";
                     newNodeBackground.style.backgroundPositionX = "140px";
                     newNodeBackground.style.backgroundSize = "80px";
@@ -395,7 +395,7 @@
                     spa.innerHTML = "<span style=\"color:  white;\">" + name.toUpperCase() + "</span>" + "<br>";
                 }
                 if (splits[4] == "shadow") {
-                    newNodeBackground.style.backgroundImage = "url(\"/aow4db/Icons/Text/shadow.png\")";
+                    newNodeBackground.style.backgroundImage = "url(\"/cbm/Icons/Text/shadow.png\")";
                     newNodeBackground.style.backgroundRepeat = "no-repeat";
                     newNodeBackground.style.backgroundPositionX = "140px";
                     newNodeBackground.style.backgroundSize = "80px";
@@ -403,7 +403,7 @@
                     spa.innerHTML = "<span style=\"color:  white;\">" + name.toUpperCase() + "</span>" + "<br>";
                 }
                 if (splits[4] == "nature") {
-                    newNodeBackground.style.backgroundImage = "url(\"/aow4db/Icons/Text/nature.png\")";
+                    newNodeBackground.style.backgroundImage = "url(\"/cbm/Icons/Text/nature.png\")";
                     newNodeBackground.style.backgroundRepeat = "no-repeat";
                     newNodeBackground.style.backgroundPositionX = "140px";
                     newNodeBackground.style.backgroundSize = "80px";
@@ -412,7 +412,7 @@
                 }
 
                 if (splits[4] == "materium") {
-                    newNodeBackground.style.backgroundImage = "url(\"/aow4db/Icons/Text/materium.png\")";
+                    newNodeBackground.style.backgroundImage = "url(\"/cbm/Icons/Text/materium.png\")";
                     newNodeBackground.style.backgroundRepeat = "no-repeat";
                     newNodeBackground.style.backgroundPositionX = "140px";
                     newNodeBackground.style.backgroundSize = "80px";
@@ -420,7 +420,7 @@
                     spa.innerHTML = "<span style=\"color:  white;\">" + name.toUpperCase() + "</span>" + "<br>";
                 }
                 if (splits[4] == "astral") {
-                    newNodeBackground.style.backgroundImage = "url(\"/aow4db/Icons/Text/astral.png\")";
+                    newNodeBackground.style.backgroundImage = "url(\"/cbm/Icons/Text/astral.png\")";
                     newNodeBackground.style.backgroundRepeat = "no-repeat";
                     newNodeBackground.style.backgroundPositionX = "140px";
                     newNodeBackground.style.backgroundSize = "80px";
@@ -429,7 +429,7 @@
                 }
                 if (splits[4] == "chosen_destroyers") {
 
-                    //  newNodeBackground.style.backgroundImage = "url(\"/aow4db/Icons/Text/mystic.png\")";
+                    //  newNodeBackground.style.backgroundImage = "url(\"/cbm/Icons/Text/mystic.png\")";
                     newNodeBackground.style.backgroundRepeat = "no-repeat";
                     newNodeBackground.style.backgroundPositionX = "140px";
                     newNodeBackground.style.backgroundSize = "80px";
@@ -605,7 +605,7 @@
                 var newNodeBackground = document.createElement("DIV");
 
                 var img = document.createElement("IMG");
-                img.setAttribute("src", "/aow4db/Icons/Text/" + structure + ".png");
+                img.setAttribute("src", "/cbm/Icons/Text/" + structure + ".png");
                 img.setAttribute("height", "50px");
                 img.className = "structureNodeIcon";
                 newNode.setAttribute("id", structure);
@@ -654,7 +654,7 @@
             var treespace = document.getElementById("treespacegeneral");
             var category = document.createElement("DIV");
 
-            category.setAttribute("style", "width:" + width + "px; height:" + height + "px; position:absolute; top:" + positionTop + "px; left:" + positionLeft + "px; background-color:" + color + ";   border-width:5px;   border-style: solid;border-image: url(/aow4db/Icons/9slicetooltip.png);border-image-slice: 10 10 10 10 ;");
+            category.setAttribute("style", "width:" + width + "px; height:" + height + "px; position:absolute; top:" + positionTop + "px; left:" + positionLeft + "px; background-color:" + color + ";   border-width:5px;   border-style: solid;border-image: url(/cbm/Icons/9slicetooltip.png);border-image-slice: 10 10 10 10 ;");
             var categoryname = document.createElement("DIV");
             categoryname.innerHTML = name.toUpperCase();
             categoryname.setAttribute("Style", "position:absolute; top:2px; left:5px; color:white");
@@ -739,7 +739,7 @@
         position: absolute;
 
         transform-origin: left center;
-        background-image: url(/aow4db/Icons/Interface/talents-arrow-line-gray.png);
+        background-image: url(/cbm/Icons/Interface/talents-arrow-line-gray.png);
         background-size: 10px;
         width: 25px;
     }
@@ -752,11 +752,11 @@
         height: auto;
         width: auto;
         background-color: black;
-        background-image: url(/aow4db/Icons/Interface/citytree.png);
+        background-image: url(/cbm/Icons/Interface/citytree.png);
         background-size: 5584px;
         background-repeat: no-repeat;
         border-width: 5px;
-        border-image: url(/aow4db/Icons/9slicetooltip.png);
+        border-image: url(/cbm/Icons/9slicetooltip.png);
         border-image-slice: 10 10 10 10 fill;
         border-style: solid;
         padding-top: 30px;
@@ -782,7 +782,7 @@
 
 
 
-        background-image: url(/aow4db/Icons/tooltipBG.png);
+        background-image: url(/cbm/Icons/tooltipBG.png);
         font-size: 11px;
         color: #bbcdf6;
         min-height: 60px;
@@ -790,7 +790,7 @@
         width: 225px;
         text-align: left;
         border-style: solid;
-        border-image: url(/aow4db/Icons/9slicetooltip.png);
+        border-image: url(/cbm/Icons/9slicetooltip.png);
         border-image-slice: 4 10 4 10 fill;
         text-shadow: 2px 2px black;
         box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.3);

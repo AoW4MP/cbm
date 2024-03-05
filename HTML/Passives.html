@@ -1,17 +1,17 @@
 <!DOCTYPE HTML>
 <html lang="en">
 
-<link rel="shortcut icon" type="image/x-icon" href="/aow4db/favicon.ico" />
+<link rel="shortcut icon" type="image/x-icon" href="/cbm/favicon.ico" />
 
 <head>
-    <link rel="stylesheet" type="text/css" href="/aow4db/Style/style.css">
+    <link rel="stylesheet" type="text/css" href="/cbm/Style/style.css">
     <meta charset="UTF-8">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 
     <script>
         $("#body").ready(function() {
 
-            $("#header").load("/aow4db/HTML/header.html", function() {
+            $("#header").load("/cbm/HTML/header.html", function() {
                 CheckData();
             });
         });
@@ -273,13 +273,13 @@
                     abilityDescr = (jsonUnitAbilities[j].description);
 
                     var abilityIconType = "";
-                    imag.setAttribute("src", "/aow4db/Icons/Abilities/" + abilityIcon + ".png");
+                    imag.setAttribute("src", "/cbm/Icons/Abilities/" + abilityIcon + ".png");
 
                     var abilityIconType = GetAbilityBackground(abilityDam);
 
-                    imag.setAttribute("style", "background-image: url(\"/aow4db/Icons/Interface/" + abilityIconType + ".png\");background-repeat: no-repeat;background-size: 40px 40px");
+                    imag.setAttribute("style", "background-image: url(\"/cbm/Icons/Interface/" + abilityIconType + ".png\");background-repeat: no-repeat;background-size: 40px 40px");
 
-                    imag.setAttribute('onerror', "this.setAttribute('src','/aow4db/Icons/Text/mp.png')");
+                    imag.setAttribute('onerror', "this.setAttribute('src','/cbm/Icons/Text/mp.png')");
                     imag.setAttribute("width", "40");
                     imag.setAttribute("height", "40");
 

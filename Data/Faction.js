@@ -44,7 +44,7 @@ function GetRandomSymbol() {
     //     numb += 1;
     //     numb = "0" + numb.toString();
     // }
-    // symbolElement.setAttribute("src", "/aow4db/Icons/Symbols/SigilIcons_" + numb + ".gif");
+    // symbolElement.setAttribute("src", "/cbm/Icons/Symbols/SigilIcons_" + numb + ".gif");
 
 }
 
@@ -313,7 +313,7 @@ function SelectSymbol(origin) {
         origin = 138;
 
     }
-    symbolElement.setAttribute("src", "/aow4db/Icons/Symbols/SigilIcons_" + origin + ".gif");
+    symbolElement.setAttribute("src", "/cbm/Icons/Symbols/SigilIcons_" + origin + ".gif");
 
 
 
@@ -393,7 +393,7 @@ function SetTomePathInfoSmall(buttonHolder, origin) {
     image.setAttribute("height", "60");
     image.style = "position: relative; top: 10px;";
 
-    image.src = "/aow4db/Icons/TomeIcons/" + origin.id + ".png"; // Set the image source to your image file
+    image.src = "/cbm/Icons/TomeIcons/" + origin.id + ".png"; // Set the image source to your image file
 
 
 
@@ -471,7 +471,7 @@ function SetTomePathInfo(button, origin) {
     image.setAttribute("height", "50");
 
 
-    image.src = "/aow4db/Icons/TomeIcons/" + origin.id + ".png"; // Set the image source to your image file
+    image.src = "/cbm/Icons/TomeIcons/" + origin.id + ".png"; // Set the image source to your image file
 
 
 
@@ -902,7 +902,7 @@ function SetButtonInfo(button, origin, type) {
     image.setAttribute("height", "40");
 
     if (type === "Tome") {
-        image.src = "/aow4db/Icons/TomeIcons/" + origin.id + ".png"; // Set the image source to your image file
+        image.src = "/cbm/Icons/TomeIcons/" + origin.id + ".png"; // Set the image source to your image file
     } else if (type === "FormTrait") {
         image.setAttribute("width", "20");
         image.setAttribute("height", "20");
@@ -910,21 +910,21 @@ function SetButtonInfo(button, origin, type) {
             var iconLink = origin.id;
 
             iconLink = iconLink.split('_').slice(1).join('_');
-            image.src = "/aow4db/Icons/FactionCreation/" + iconLink + ".png";
+            image.src = "/cbm/Icons/FactionCreation/" + iconLink + ".png";
         } else {
-            image.src = "/aow4db/Icons/FactionCreation/" + origin.id + ".png"; // Set the image source to your image file
+            image.src = "/cbm/Icons/FactionCreation/" + origin.id + ".png"; // Set the image source to your image file
         }
     } else if (type === "Culture" || type === "Origin" || type === "Society1" || type === "Society2" || type === "Form") {
         if (origin.id.startsWith("_")) {
             var iconLink = origin.id;
             iconLink = iconLink.split('_').slice(1).join('_');
-            image.src = "/aow4db/Icons/FactionCreation/" + iconLink + ".png";
+            image.src = "/cbm/Icons/FactionCreation/" + iconLink + ".png";
         } else {
-            image.src = "/aow4db/Icons/FactionCreation/" + origin.id + ".png"; // Set the image source to your image file
+            image.src = "/cbm/Icons/FactionCreation/" + origin.id + ".png"; // Set the image source to your image file
         }
 
     } else if (type === "Loadout") {
-        image.src = "/aow4db/Icons/Abilities/" + origin.id + ".png"; // Set the image source to your image file
+        image.src = "/cbm/Icons/Abilities/" + origin.id + ".png"; // Set the image source to your image file
     } else if (type === "Symbol") {
         if (origin < 10 && origin > 0) {
 
@@ -934,7 +934,7 @@ function SetButtonInfo(button, origin, type) {
             origin += 138;
 
         }
-        image.src = "/aow4db/Icons/Symbols/SigilIcons_" + origin + ".gif"; // Set the image source to your image file
+        image.src = "/cbm/Icons/Symbols/SigilIcons_" + origin + ".gif"; // Set the image source to your image file
     }
     if (type != "Symbol") {
 
