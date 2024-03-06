@@ -9,9 +9,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 
     <script>
-        $("#body").ready(function() {
+        $("#body").ready(function () {
 
-            $("#header").load("/cbm/HTML/header.html", function() {
+            $("#header").load("/cbm/HTML/header.html", function () {
                 CheckData();
             });
         });
@@ -52,7 +52,6 @@
 
                             var newNode = document.createElement("DIV");
 
-
                             if (jsonEmpire[i].category.toUpperCase().indexOf("RITE") != -1) {
 
                                 var column = jsonEmpire[i].required_level + 2;
@@ -60,31 +59,38 @@
                                 // insert connection line
                                 var connectionLine = document.createElement("DIV");
 
+                                //adjustments for Teleported Infrastructure, TODO:
+                                var gridrow = column - offset;
+                                if (gridrow === 13) gridrow = 12;
                                 var toppos = 20 + ((row - 1) * 70);
-                                var leftpos = ((column - offset) * nodeHeight);
+                                var leftpos = (gridrow * nodeHeight);
 
                                 connectionLine.setAttribute("style", "top:" + leftpos + "px; left:" + toppos + "px; rotate:-180deg;background-color:" + color + ";");
                                 connectionLine.className = "branch-line";
                                 connectionLine.setAttribute("id", name);
                                 treespace.appendChild(connectionLine);
 
-                                newNode.setAttribute("style", "grid-row:" + (column - offset) + "; grid-column:" + (row - 1) + ";");
+                                newNode.setAttribute("style", "grid-row:" + (gridrow) + "; grid-column:" + (row - 1) + ";");
                             } else {
                                 //insert connection line
 
                                 var connectionLine = document.createElement("DIV");
 
                                 var column = jsonEmpire[i].required_level + 2;
+                                //adjustments for Teleported Infrastructure, TODO:
+                                var gridrow = column - offset;
+                                if (gridrow === 13) gridrow = 12;
 
                                 var toppos = 37 + ((row - 1) * 70);
-                                var leftpos = ((column - offset) * nodeHeight);
+                                var leftpos = (gridrow * nodeHeight);
 
 
                                 connectionLine.setAttribute("style", "top:" + leftpos + "px; left:" + toppos + "px; rotate:180deg; background-color:" + color + ";");
                                 connectionLine.className = "branch-line";
                                 treespace.appendChild(connectionLine);
                                 connectionLine.setAttribute("id", name);
-                                newNode.setAttribute("style", "grid-row:" + (column - offset) + "; grid-column:" + row + ";");
+
+                                newNode.setAttribute("style", "grid-row:" + (gridrow) + "; grid-column:" + row + ";");
                             }
 
 
@@ -136,8 +142,14 @@
                             var toppos = 35 + ((row) * 70) - 92;
                             var leftpos = 60;
 
-
-                            connectionLine.setAttribute("style", "top:" + leftpos + "px; left:" + toppos + "px; rotate:90deg;width: 600px; background-color:" + color + ";");
+                            var height;
+                            if (name === "General") {
+                                height = 660;
+                            } else {
+                                height = 600;
+                            }
+                            //height is defined as width because element is rotated.
+                            connectionLine.setAttribute("style", "top:" + leftpos + "px; left:" + toppos + "px; rotate:90deg;width: " + height + "px; background-color:" + color + ";");
 
 
                             connectionLine.className = "branch-line";
@@ -186,16 +198,17 @@
         }
 
         function SetBreakPoints() {
-            CreateDiv(2, "10");
-            CreateDiv(3, "20");
-            CreateDiv(4, "40");
-            CreateDiv(5, "80");
+            CreateDiv(2, "15");
+            CreateDiv(3, "40");
+            CreateDiv(4, "60");
+            CreateDiv(5, "90");
             CreateDiv(6, "120");
-            CreateDiv(7, "160");
-            CreateDiv(8, "200");
-            CreateDiv(9, "300");
-            CreateDiv(10, "400");
-            CreateDiv(11, "500");
+            CreateDiv(7, "150");
+            CreateDiv(8, "180");
+            CreateDiv(9, "220");
+            CreateDiv(10, "260");
+            CreateDiv(11, "300");
+            CreateDiv(12, "500");
 
         }
 
@@ -280,9 +293,9 @@
     .tree-grid {
         display: grid;
         grid-template-columns: repeat(16, 70px);
-        grid-template-rows: repeat(11, 60px);
+        grid-template-rows: repeat(12, 60px);
         position: absolute;
-        height: 750px;
+        height: 800px;
         width: 1150px;
         background-color: black;
         background-image: url(/cbm/Icons/Interface/panel_Background.png);
@@ -317,7 +330,6 @@
     .empireNodeIcon:hover {
         filter: brightness(150%);
     }
-
 </style>
 <footer>
     <br>
