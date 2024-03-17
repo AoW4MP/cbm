@@ -110,10 +110,13 @@ ul {
     font-size: 20px;
     color: beige;
     overflow: hidden;
-    padding-top: 5px;
     width: auto;
     height: auto;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    padding: 4px 0;
 }
 
 .textblock {
