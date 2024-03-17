@@ -232,7 +232,7 @@
  {
   "requirement_description": "Requires  <population></population> <hyperlink>Population</hyperlink> to unlock",
   "cost": "600<structureprod></structureprod> 600<gold></gold> ",
-  "prediction_description": "<bulletlist><bullet>+1 Province Annex Range</bullet><bullet>+10 <gold></gold> <hyperlink>Gold</hyperlink> income</bullet><bullet>+2 <happiness></happiness> <hyperlink>City Stability</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <structureprod></structureprod> <hyperlink>Production</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <unitprod></unitprod> <hyperlink>Draft</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+2 <gold></gold> <hyperlink>Gold</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet></bulletlist>",
+  "prediction_description": "<bulletlist><bullet>+1 Province Annex Range</bullet><bullet>+2 <happiness></happiness> <hyperlink>City Stability</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <unitprod></unitprod> <hyperlink>Draft</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <gold></gold> <hyperlink>Gold</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <mana></mana> <hyperlink>Mana</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <knowledge></knowledge> <hyperlink>Knowledge</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet></bulletlist>",
   "resid": 5016521802580,
   "id": "town_hall_iv_primeval_palace",
   "DLC": "PRIMALFURY ",
@@ -245,7 +245,7 @@
  {
   "requirement_description": "Requires  <population></population> <hyperlink>Population</hyperlink> to unlock",
   "cost": "400<structureprod></structureprod> 400<gold></gold> ",
-  "prediction_description": "<bulletlist><bullet>+1 Province Annex Range</bullet><bullet>+10 <gold></gold> <hyperlink>Gold</hyperlink> income</bullet><bullet>+1 <structureprod></structureprod> <hyperlink>Production</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <unitprod></unitprod> <hyperlink>Draft</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet></bulletlist>",
+  "prediction_description": "<bulletlist><bullet>+1 Province Annex Range</bullet><bullet>+1 <structureprod></structureprod> <hyperlink>Production</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <unitprod></unitprod> <hyperlink>Draft</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <gold></gold> <hyperlink>Gold</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <mana></mana> <hyperlink>Mana</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet></bulletlist>",
   "resid": 5016521802574,
   "id": "town_hall_iii_spirit_hall",
   "DLC": "PRIMALFURY ",
@@ -258,7 +258,7 @@
  {
   "requirement_description": "Requires 3 <population></population> <hyperlink>Population</hyperlink> to unlock",
   "cost": "200<structureprod></structureprod> 200<gold></gold> ",
-  "prediction_description": "<bulletlist><bullet>+1 Province Annex Range</bullet><bullet>+10 <gold></gold> <hyperlink>Gold</hyperlink> income</bullet><bullet>+1 <structureprod></structureprod> <hyperlink>Production</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <unitprod></unitprod> <hyperlink>Draft</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet></bulletlist>",
+  "prediction_description": "<bulletlist><bullet>+1 Province Annex Range</bullet><bullet>+10 <gold></gold> <hyperlink>Gold</hyperlink> income</bullet><bullet>+1 <structureprod></structureprod> <hyperlink>Production</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <knowledge></knowledge> <hyperlink>Knowledge</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet></bulletlist>",
   "resid": 5016521802568,
   "id": "town_hall_ii_clan_lodge",
   "DLC": "PRIMALFURY ",
@@ -306,7 +306,7 @@
  {
   "requirement_description": "Requires 9 <population></population> <hyperlink>Population</hyperlink> to unlock",
   "cost": "600<structureprod></structureprod> 600<gold></gold> ",
-  "prediction_description": "<bulletlist><bullet>+1 Province Annex Range</bullet><bullet>+10 <gold></gold> <hyperlink>Gold</hyperlink> income</bullet><bullet>+2 <happiness></happiness> <hyperlink>City Stability</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <structureprod></structureprod> <hyperlink>Production</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <unitprod></unitprod> <hyperlink>Draft</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+2 <gold></gold> <hyperlink>Gold</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet></bulletlist>",
+  "prediction_description": "<bulletlist><bullet>+1 Province Annex Range</bullet><bullet>+2 <happiness></happiness> <hyperlink>City Stability</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <unitprod></unitprod> <hyperlink>Draft</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <gold></gold> <hyperlink>Gold</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <mana></mana> <hyperlink>Mana</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <knowledge></knowledge> <hyperlink>Knowledge</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet></bulletlist>",
   "resid": 4986457030806,
   "id": "town_hall_iv_ironclad_citadel",
   "DLC": "EMPIRESANDASHES ",
@@ -319,7 +319,7 @@
  {
   "requirement_description": "Requires 6 <population></population> <hyperlink>Population</hyperlink> to unlock",
   "cost": "400<structureprod></structureprod> 400<gold></gold> ",
-  "prediction_description": "<bulletlist><bullet>+1 Province Annex Range</bullet><bullet>+10 <gold></gold> <hyperlink>Gold</hyperlink> income</bullet><bullet>+1 <structureprod></structureprod> <hyperlink>Production</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <unitprod></unitprod> <hyperlink>Draft</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet></bulletlist>",
+  "prediction_description": "<bulletlist><bullet>+1 Province Annex Range</bullet><bullet>+1 <structureprod></structureprod> <hyperlink>Production</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <unitprod></unitprod> <hyperlink>Draft</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <gold></gold> <hyperlink>Gold</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <mana></mana> <hyperlink>Mana</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet></bulletlist>",
   "resid": 4986457030800,
   "id": "town_hall_iii_chained_spire",
   "DLC": "EMPIRESANDASHES ",
@@ -332,7 +332,7 @@
  {
   "requirement_description": "Requires 3 <population></population> <hyperlink>Population</hyperlink> to unlock",
   "cost": "200<structureprod></structureprod> 200<gold></gold> ",
-  "prediction_description": "<bulletlist><bullet>+1 Province Annex Range</bullet><bullet>+10 <gold></gold> <hyperlink>Gold</hyperlink> income</bullet><bullet>+1 <structureprod></structureprod> <hyperlink>Production</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <unitprod></unitprod> <hyperlink>Draft</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet></bulletlist>",
+  "prediction_description": "<bulletlist><bullet>+1 Province Annex Range</bullet><bullet>+10 <gold></gold> <hyperlink>Gold</hyperlink> income</bullet><bullet>+1 <structureprod></structureprod> <hyperlink>Production</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <knowledge></knowledge> <hyperlink>Knowledge</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet></bulletlist>",
   "resid": 4986457030794,
   "id": "town_hall_ii_steel_hall",
   "DLC": "EMPIRESANDASHES ",
@@ -845,7 +845,7 @@
   "prediction_description": "",
   "resid": 4578435139920,
   "id": "shadow_bolstering_matrix",
-  "description": "Shadow Buff and Healing <hyperlink>Spells</hyperlink> grant 3 stacks of Evasion.",
+  "description": "Shadow Buff and Healing <hyperlink>Spells</hyperlink> grant 2 stacks of Evasion.",
   "name": "Shadow Bolstering Matrix",
   "icon": "shadow_bolstering_matrix",
   "is_sector_upgrade": false
@@ -856,7 +856,7 @@
   "prediction_description": "",
   "resid": 4578435139917,
   "id": "materium_bolstering_matrix",
-  "description": "Materium Buff and Healing <hyperlink>Spells</hyperlink> grant 3 Bolstered Defense.",
+  "description": "Materium Buff and Healing <hyperlink>Spells</hyperlink> grant 2 Bolstered Defense.",
   "name": "Materium Bolstering Matrix",
   "icon": "materium_bolstering_matrix",
   "is_sector_upgrade": false
@@ -867,7 +867,7 @@
   "prediction_description": "",
   "resid": 4578435139914,
   "id": "astral_bolstering_matrix",
-  "description": "Astral Buff and Healing <hyperlink>Spells</hyperlink> grant 3 Bolstered Resistance.",
+  "description": "Astral Buff and Healing <hyperlink>Spells</hyperlink> grant 2 Bolstered Resistance.",
   "name": "Astral Bolstering Matrix",
   "icon": "astral_bolstering_matrix",
   "is_sector_upgrade": false
@@ -889,7 +889,7 @@
   "prediction_description": "",
   "resid": 4578435139908,
   "id": "chaos_bolstering_matrix",
-  "description": "Chaos Buff and Healing <hyperlink>Spells</hyperlink> grant 3 Strengthened.",
+  "description": "Chaos Buff and Healing <hyperlink>Spells</hyperlink> grant 2 Strengthened.",
   "name": "Chaos Bolstering Matrix",
   "icon": "chaos_bolstering_matrix",
   "is_sector_upgrade": false
@@ -900,7 +900,7 @@
   "prediction_description": "",
   "resid": 4578435139905,
   "id": "order_bolstering_matrix",
-  "description": "Order Buff and Healing <hyperlink>Spells</hyperlink> grant 3 Fortune.",
+  "description": "Order Buff and Healing <hyperlink>Spells</hyperlink> grant 2 Fortune.",
   "name": "Order Bolstering Matrix",
   "icon": "order_bolstering_matrix",
   "is_sector_upgrade": false
@@ -1614,7 +1614,7 @@
  {
   "requirement_description": "Requires 6 <population></population> <hyperlink>Population</hyperlink> to unlock",
   "cost": "400<structureprod></structureprod> 400<gold></gold> ",
-  "prediction_description": "<bulletlist><bullet>+1 Province Annex Range</bullet><bullet>+10 <gold></gold> <hyperlink>Gold</hyperlink> income</bullet><bullet>+1 <structureprod></structureprod> <hyperlink>Production</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <unitprod></unitprod> <hyperlink>Draft</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet></bulletlist>",
+  "prediction_description": "<bulletlist><bullet>+1 Province Annex Range</bullet><bullet>+1 <structureprod></structureprod> <hyperlink>Production</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <unitprod></unitprod> <hyperlink>Draft</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <gold></gold> <hyperlink>Gold</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <mana></mana> <hyperlink>Mana</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet></bulletlist>",
   "resid": 4578435138616,
   "id": "town_hall_iii_mystic_spire",
   "description": "<bulletlist><bullet>Unlocks the Spell Jammer province improvement.</bullet></bulletlist>",
@@ -1626,7 +1626,7 @@
  {
   "requirement_description": "Requires 9 <population></population> <hyperlink>Population</hyperlink> to unlock",
   "cost": "600<structureprod></structureprod> 600<gold></gold> ",
-  "prediction_description": "<bulletlist><bullet>+1 Province Annex Range</bullet><bullet>+10 <gold></gold> <hyperlink>Gold</hyperlink> income</bullet><bullet>+2 <happiness></happiness> <hyperlink>City Stability</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <structureprod></structureprod> <hyperlink>Production</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <unitprod></unitprod> <hyperlink>Draft</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+2 <gold></gold> <hyperlink>Gold</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet></bulletlist>",
+  "prediction_description": "<bulletlist><bullet>+1 Province Annex Range</bullet><bullet>+2 <happiness></happiness> <hyperlink>City Stability</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <unitprod></unitprod> <hyperlink>Draft</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <gold></gold> <hyperlink>Gold</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <mana></mana> <hyperlink>Mana</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <knowledge></knowledge> <hyperlink>Knowledge</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet></bulletlist>",
   "resid": 4578435138608,
   "id": "town_hall_iv_wizards_auditorium",
   "description": "10 <caststrategic></caststrategic> <hyperlink>World Map Casting Points</hyperlink> and <optactical></optactical> <hyperlink> Combat Casting Points</hyperlink>.",
@@ -1638,7 +1638,7 @@
  {
   "requirement_description": "Requires 3 <population></population> <hyperlink>Population</hyperlink> to unlock",
   "cost": "200<structureprod></structureprod> 200<gold></gold> ",
-  "prediction_description": "<bulletlist><bullet>+1 Province Annex Range</bullet><bullet>+10 <gold></gold> <hyperlink>Gold</hyperlink> income</bullet><bullet>+1 <structureprod></structureprod> <hyperlink>Production</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <unitprod></unitprod> <hyperlink>Draft</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet></bulletlist>",
+  "prediction_description": "<bulletlist><bullet>+1 Province Annex Range</bullet><bullet>+10 <gold></gold> <hyperlink>Gold</hyperlink> income</bullet><bullet>+1 <structureprod></structureprod> <hyperlink>Production</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <knowledge></knowledge> <hyperlink>Knowledge</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet></bulletlist>",
   "resid": 4578435138579,
   "id": "town_hall_ii_mages_plaza",
   "description": "<bulletlist><bullet>Unlocks <hyperlink>Special Province Improvements</hyperlink>.</bullet></bulletlist>",
@@ -1650,7 +1650,7 @@
  {
   "requirement_description": "",
   "cost": "100<gold></gold> 250<structureprod></structureprod> ",
-  "prediction_description": "+20 <food></food> <hyperlink>Food</hyperlink> income",
+  "prediction_description": "+30 <food></food> <hyperlink>Food</hyperlink> income",
   "resid": 4578435138508,
   "id": "granary",
   "description": "",
@@ -1745,7 +1745,7 @@
  {
   "requirement_description": "Requires 9 <population></population> <hyperlink>Population</hyperlink> to unlock",
   "cost": "600<structureprod></structureprod> 600<gold></gold> ",
-  "prediction_description": "<bulletlist><bullet>+1 Province Annex Range</bullet><bullet>+10 <gold></gold> <hyperlink>Gold</hyperlink> income</bullet><bullet>+2 <happiness></happiness> <hyperlink>City Stability</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <structureprod></structureprod> <hyperlink>Production</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <unitprod></unitprod> <hyperlink>Draft</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+2 <gold></gold> <hyperlink>Gold</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet></bulletlist>",
+  "prediction_description": "<bulletlist><bullet>+1 Province Annex Range</bullet><bullet>+2 <happiness></happiness> <hyperlink>City Stability</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <unitprod></unitprod> <hyperlink>Draft</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <gold></gold> <hyperlink>Gold</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <mana></mana> <hyperlink>Mana</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <knowledge></knowledge> <hyperlink>Knowledge</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet></bulletlist>",
   "resid": 4578435138360,
   "id": "town_hall_iv_industry_compound",
   "description": "Production Conversions convert an additional 10%.",
@@ -1757,7 +1757,7 @@
  {
   "requirement_description": "Requires 6 <population></population> <hyperlink>Population</hyperlink> to unlock",
   "cost": "400<structureprod></structureprod> 400<gold></gold> ",
-  "prediction_description": "<bulletlist><bullet>+1 Province Annex Range</bullet><bullet>+10 <gold></gold> <hyperlink>Gold</hyperlink> income</bullet><bullet>+1 <structureprod></structureprod> <hyperlink>Production</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <unitprod></unitprod> <hyperlink>Draft</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet></bulletlist>",
+  "prediction_description": "<bulletlist><bullet>+1 Province Annex Range</bullet><bullet>+1 <structureprod></structureprod> <hyperlink>Production</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <unitprod></unitprod> <hyperlink>Draft</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <gold></gold> <hyperlink>Gold</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <mana></mana> <hyperlink>Mana</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet></bulletlist>",
   "resid": 4578435138339,
   "id": "town_hall_iii_forge_tower",
   "description": "<bulletlist><bullet>Buy Now costs 20% less.</bullet><bullet>Unlocks the  province improvement.</bullet></bulletlist>",
@@ -1769,7 +1769,7 @@
  {
   "requirement_description": "Requires 3 <population></population> <hyperlink>Population</hyperlink> to unlock",
   "cost": "200<structureprod></structureprod> 200<gold></gold> ",
-  "prediction_description": "<bulletlist><bullet>+1 Province Annex Range</bullet><bullet>+10 <gold></gold> <hyperlink>Gold</hyperlink> income</bullet><bullet>+1 <structureprod></structureprod> <hyperlink>Production</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <unitprod></unitprod> <hyperlink>Draft</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet></bulletlist>",
+  "prediction_description": "<bulletlist><bullet>+1 Province Annex Range</bullet><bullet>+10 <gold></gold> <hyperlink>Gold</hyperlink> income</bullet><bullet>+1 <structureprod></structureprod> <hyperlink>Production</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <knowledge></knowledge> <hyperlink>Knowledge</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet></bulletlist>",
   "resid": 4578435138331,
   "id": "town_hall_ii_bulwark",
   "description": "<bulletlist><bullet>Unlocks <hyperlink>Special Province Improvements</hyperlink>.</bullet></bulletlist>",
@@ -1792,7 +1792,7 @@
  {
   "requirement_description": "Requires 9 <population></population> <hyperlink>Population</hyperlink> to unlock",
   "cost": "600<structureprod></structureprod> 600<gold></gold> ",
-  "prediction_description": "<bulletlist><bullet>+1 Province Annex Range</bullet><bullet>+10 <gold></gold> <hyperlink>Gold</hyperlink> income</bullet><bullet>+1 <structureprod></structureprod> <hyperlink>Production</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <unitprod></unitprod> <hyperlink>Draft</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+2 <gold></gold> <hyperlink>Gold</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet></bulletlist>",
+  "prediction_description": "<bulletlist><bullet>+1 Province Annex Range</bullet><bullet>+1 <unitprod></unitprod> <hyperlink>Draft</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <gold></gold> <hyperlink>Gold</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <mana></mana> <hyperlink>Mana</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <knowledge></knowledge> <hyperlink>Knowledge</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet></bulletlist>",
   "resid": 4578435138280,
   "id": "town_hall_iv_black_palace",
   "description": "",
@@ -1804,7 +1804,7 @@
  {
   "requirement_description": "Requires 6 <population></population> <hyperlink>Population</hyperlink> to unlock",
   "cost": "400<structureprod></structureprod> 400<gold></gold> ",
-  "prediction_description": "<bulletlist><bullet>+1 Province Annex Range</bullet><bullet>+10 <gold></gold> <hyperlink>Gold</hyperlink> income</bullet><bullet>+1 <structureprod></structureprod> <hyperlink>Production</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <unitprod></unitprod> <hyperlink>Draft</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet></bulletlist>",
+  "prediction_description": "<bulletlist><bullet>+1 Province Annex Range</bullet><bullet>+1 <structureprod></structureprod> <hyperlink>Production</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <unitprod></unitprod> <hyperlink>Draft</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <gold></gold> <hyperlink>Gold</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <mana></mana> <hyperlink>Mana</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet></bulletlist>",
   "resid": 4578435138273,
   "id": "town_hall_iii_stronghold",
   "description": "<bulletlist><bullet>Unlocks the Spell Jammer province improvement.</bullet></bulletlist>",
@@ -1816,7 +1816,7 @@
  {
   "requirement_description": "Requires 3 <population></population> <hyperlink>Population</hyperlink> to unlock",
   "cost": "200<structureprod></structureprod> 200<gold></gold> ",
-  "prediction_description": "<bulletlist><bullet>+1 Province Annex Range</bullet><bullet>+10 <gold></gold> <hyperlink>Gold</hyperlink> income</bullet><bullet>+1 <structureprod></structureprod> <hyperlink>Production</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <unitprod></unitprod> <hyperlink>Draft</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet></bulletlist>",
+  "prediction_description": "<bulletlist><bullet>+1 Province Annex Range</bullet><bullet>+10 <gold></gold> <hyperlink>Gold</hyperlink> income</bullet><bullet>-20 <happiness></happiness> <hyperlink>City Stability</hyperlink> income</bullet><bullet>+1 <structureprod></structureprod> <hyperlink>Production</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <knowledge></knowledge> <hyperlink>Knowledge</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet></bulletlist>",
   "resid": 4578435138266,
   "id": "town_hall_ii_dread_spire",
   "description": "<bulletlist><bullet>Negative <happiness></happiness> <hyperlink>City Stability</hyperlink> states give no economic penalties.</bullet><bullet>Unlocks <hyperlink>Special Province Improvements</hyperlink>.</bullet></bulletlist>",
@@ -1828,7 +1828,7 @@
  {
   "requirement_description": "Requires 9 <population></population> <hyperlink>Population</hyperlink> to unlock",
   "cost": "600<structureprod></structureprod> 600<gold></gold> ",
-  "prediction_description": "<bulletlist><bullet>+1 Province Annex Range</bullet><bullet>+10 <gold></gold> <hyperlink>Gold</hyperlink> income</bullet><bullet>+2 <happiness></happiness> <hyperlink>City Stability</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <structureprod></structureprod> <hyperlink>Production</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <unitprod></unitprod> <hyperlink>Draft</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+2 <gold></gold> <hyperlink>Gold</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet></bulletlist>",
+  "prediction_description": "<bulletlist><bullet>+1 Province Annex Range</bullet><bullet>+2 <happiness></happiness> <hyperlink>City Stability</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <unitprod></unitprod> <hyperlink>Draft</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <gold></gold> <hyperlink>Gold</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <mana></mana> <hyperlink>Mana</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <knowledge></knowledge> <hyperlink>Knowledge</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet></bulletlist>",
   "resid": 4578435138253,
   "id": "town_hall_iv_solar_sanctum",
   "description": "",
@@ -1840,7 +1840,7 @@
  {
   "requirement_description": "Requires 6 <population></population> <hyperlink>Population</hyperlink> to unlock",
   "cost": "400<structureprod></structureprod> 400<gold></gold> ",
-  "prediction_description": "<bulletlist><bullet>+1 Province Annex Range</bullet><bullet>+10 <gold></gold> <hyperlink>Gold</hyperlink> income</bullet><bullet>+1 <structureprod></structureprod> <hyperlink>Production</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <unitprod></unitprod> <hyperlink>Draft</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet></bulletlist>",
+  "prediction_description": "<bulletlist><bullet>+1 Province Annex Range</bullet><bullet>+1 <structureprod></structureprod> <hyperlink>Production</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <unitprod></unitprod> <hyperlink>Draft</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <gold></gold> <hyperlink>Gold</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <mana></mana> <hyperlink>Mana</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet></bulletlist>",
   "resid": 4578435138246,
   "id": "town_hall_iii_pantheon",
   "description": "<bulletlist><bullet>Unlocks the Spell Jammer province improvement.</bullet></bulletlist>",
@@ -1852,7 +1852,7 @@
  {
   "requirement_description": "Requires 3 <population></population> <hyperlink>Population</hyperlink> to unlock",
   "cost": "200<structureprod></structureprod> 200<gold></gold> ",
-  "prediction_description": "<bulletlist><bullet>+1 Province Annex Range</bullet><bullet>+10 <gold></gold> <hyperlink>Gold</hyperlink> income</bullet><bullet>+1 <structureprod></structureprod> <hyperlink>Production</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <unitprod></unitprod> <hyperlink>Draft</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet></bulletlist>",
+  "prediction_description": "<bulletlist><bullet>+1 Province Annex Range</bullet><bullet>+10 <gold></gold> <hyperlink>Gold</hyperlink> income</bullet><bullet>+1 <structureprod></structureprod> <hyperlink>Production</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <knowledge></knowledge> <hyperlink>Knowledge</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet></bulletlist>",
   "resid": 4578435138239,
   "id": "town_hall_ii_atrium_of_light",
   "description": "<bulletlist><bullet>Unlocks <hyperlink>Special Province Improvements</hyperlink>.</bullet></bulletlist>",
@@ -1875,7 +1875,7 @@
  {
   "requirement_description": "Requires 9 <population></population> <hyperlink>Population</hyperlink> to unlock",
   "cost": "600<structureprod></structureprod> 600<gold></gold> ",
-  "prediction_description": "<bulletlist><bullet>+1 Province Annex Range</bullet><bullet>+10 <gold></gold> <hyperlink>Gold</hyperlink> income</bullet><bullet>+2 <happiness></happiness> <hyperlink>City Stability</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <structureprod></structureprod> <hyperlink>Production</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <unitprod></unitprod> <hyperlink>Draft</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+2 <gold></gold> <hyperlink>Gold</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet></bulletlist>",
+  "prediction_description": "<bulletlist><bullet>+1 Province Annex Range</bullet><bullet>+2 <happiness></happiness> <hyperlink>City Stability</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <unitprod></unitprod> <hyperlink>Draft</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <gold></gold> <hyperlink>Gold</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <mana></mana> <hyperlink>Mana</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <knowledge></knowledge> <hyperlink>Knowledge</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet></bulletlist>",
   "resid": 4578435138055,
   "id": "town_hall_iv_warlords_pavilion",
   "description": "",
@@ -1887,7 +1887,7 @@
  {
   "requirement_description": "Requires 6 <population></population> <hyperlink>Population</hyperlink> to unlock",
   "cost": "400<structureprod></structureprod> 400<gold></gold> ",
-  "prediction_description": "<bulletlist><bullet>+1 Province Annex Range</bullet><bullet>+10 <gold></gold> <hyperlink>Gold</hyperlink> income</bullet><bullet>+1 <structureprod></structureprod> <hyperlink>Production</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <unitprod></unitprod> <hyperlink>Draft</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet></bulletlist>",
+  "prediction_description": "<bulletlist><bullet>+1 Province Annex Range</bullet><bullet>+1 <structureprod></structureprod> <hyperlink>Production</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <unitprod></unitprod> <hyperlink>Draft</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <gold></gold> <hyperlink>Gold</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <mana></mana> <hyperlink>Mana</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet></bulletlist>",
   "resid": 4578435138048,
   "id": "town_hall_iii_halls_of_war",
   "description": "<bulletlist><bullet>Unlocks the Spell Jammer province improvement.</bullet></bulletlist>",
@@ -1899,7 +1899,7 @@
  {
   "requirement_description": "Requires 3 <population></population> <hyperlink>Population</hyperlink> to unlock",
   "cost": "200<structureprod></structureprod> 200<gold></gold> ",
-  "prediction_description": "<bulletlist><bullet>+1 Province Annex Range</bullet><bullet>+10 <gold></gold> <hyperlink>Gold</hyperlink> income</bullet><bullet>+1 <structureprod></structureprod> <hyperlink>Production</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <unitprod></unitprod> <hyperlink>Draft</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet></bulletlist>",
+  "prediction_description": "<bulletlist><bullet>+1 Province Annex Range</bullet><bullet>+10 <gold></gold> <hyperlink>Gold</hyperlink> income</bullet><bullet>+1 <structureprod></structureprod> <hyperlink>Production</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <knowledge></knowledge> <hyperlink>Knowledge</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet></bulletlist>",
   "resid": 4578435138041,
   "id": "town_hall_ii_communal_tent",
   "description": "<bulletlist><bullet>Unlocks <hyperlink>Special Province Improvements</hyperlink>.</bullet></bulletlist>",
@@ -2170,7 +2170,7 @@
  {
   "requirement_description": "Requires 9 <population></population> <hyperlink>Population</hyperlink> to unlock",
   "cost": "600<structureprod></structureprod> 600<gold></gold> ",
-  "prediction_description": "<bulletlist><bullet>+1 Province Annex Range</bullet><bullet>+10 <gold></gold> <hyperlink>Gold</hyperlink> income</bullet><bullet>+2 <happiness></happiness> <hyperlink>City Stability</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <structureprod></structureprod> <hyperlink>Production</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <unitprod></unitprod> <hyperlink>Draft</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+2 <gold></gold> <hyperlink>Gold</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet></bulletlist>",
+  "prediction_description": "<bulletlist><bullet>+1 Province Annex Range</bullet><bullet>+2 <happiness></happiness> <hyperlink>City Stability</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <unitprod></unitprod> <hyperlink>Draft</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <gold></gold> <hyperlink>Gold</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <mana></mana> <hyperlink>Mana</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <knowledge></knowledge> <hyperlink>Knowledge</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet></bulletlist>",
   "resid": 4282082401414,
   "id": "town_hall_iv_grand_estate",
   "description": "",
@@ -2182,7 +2182,7 @@
  {
   "requirement_description": "Requires 6 <population></population> <hyperlink>Population</hyperlink> to unlock",
   "cost": "400<structureprod></structureprod> 400<gold></gold> ",
-  "prediction_description": "<bulletlist><bullet>+1 Province Annex Range</bullet><bullet>+10 <gold></gold> <hyperlink>Gold</hyperlink> income</bullet><bullet>+1 <structureprod></structureprod> <hyperlink>Production</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <unitprod></unitprod> <hyperlink>Draft</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet></bulletlist>",
+  "prediction_description": "<bulletlist><bullet>+1 Province Annex Range</bullet><bullet>+1 <structureprod></structureprod> <hyperlink>Production</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <unitprod></unitprod> <hyperlink>Draft</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <gold></gold> <hyperlink>Gold</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <mana></mana> <hyperlink>Mana</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet></bulletlist>",
   "resid": 4282082401410,
   "id": "town_hall_iii_citadel",
   "description": "<bulletlist><bullet>Unlocks the Spell Jammer province improvement.</bullet></bulletlist>",
@@ -2194,7 +2194,7 @@
  {
   "requirement_description": "Requires 3 <population></population> <hyperlink>Population</hyperlink> to unlock",
   "cost": "200<structureprod></structureprod> 200<gold></gold> ",
-  "prediction_description": "<bulletlist><bullet>+1 Province Annex Range</bullet><bullet>+10 <gold></gold> <hyperlink>Gold</hyperlink> income</bullet><bullet>+1 <structureprod></structureprod> <hyperlink>Production</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <unitprod></unitprod> <hyperlink>Draft</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet></bulletlist>",
+  "prediction_description": "<bulletlist><bullet>+1 Province Annex Range</bullet><bullet>+10 <gold></gold> <hyperlink>Gold</hyperlink> income</bullet><bullet>+1 <structureprod></structureprod> <hyperlink>Production</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet><bullet>+1 <knowledge></knowledge> <hyperlink>Knowledge</hyperlink> income per <population></population> <hyperlink>Population</hyperlink>: </bullet></bulletlist>",
   "resid": 4282082401405,
   "id": "town_hall_ii_castle",
   "description": "<bulletlist><bullet>Unlocks <hyperlink>Special Province Improvements</hyperlink>.</bullet></bulletlist>",
@@ -2202,17 +2202,6 @@
   "icon": "town_hall_ii_castle",
   "is_sector_upgrade": false,
   "boost_requirements": "Have 5 <population></population> <hyperlink>Population</hyperlink>"
- },
- {
-  "requirement_description": "",
-  "cost": "60<gold></gold> 130<structureprod></structureprod> ",
-  "prediction_description": "<bulletlist><bullet>+10 <garrison></garrison><hyperlink>Fortification Health</hyperlink></bullet><bullet>+10 <happiness></happiness> <hyperlink>City Stability</hyperlink> income</bullet><bullet>+40 <food></food> <hyperlink>Food</hyperlink> income</bullet><bullet>+20 <production></production> <hyperlink>Production</hyperlink> income</bullet></bulletlist>",
-  "resid": 4282082401401,
-  "id": "town_hall_ii_castle",
-  "description": "",
-  "name": "Town Hall II: Castle",
-  "icon": "town_hall_ii_castle_2",
-  "is_sector_upgrade": false
  },
  {
   "requirement_description": "Requires 1: <hut></hut> <hyperlink>Hut</hyperlink> to unlock.",
@@ -2311,7 +2300,7 @@
   "boost_requirements": "Build 4 <hyperlink><farms></farms> Farm</hyperlink>"
  },
  {
-  "requirement_description": "Requires 2:<quarry></quarry> <hyperlink>Quarries</hyperlink>",
+  "requirement_description": "",
   "cost": "170<gold></gold> 450<structureprod></structureprod> ",
   "prediction_description": "+20 <structureprod></structureprod> <hyperlink>Production</hyperlink> income",
   "resid": 4282082401258,
@@ -2320,7 +2309,7 @@
   "name": "Masonic Hall",
   "icon": "masonic_hall",
   "is_sector_upgrade": false,
-  "boost_requirements": "Build 3 <hyperlink><farms></farms> Farm</hyperlink>"
+  "boost_requirements": "<bulletlist><bullet>Build 3 <hyperlink><farms></farms> Farm</hyperlink></bullet><bullet>Build 2 <hyperlink><quarry></quarry> Quarry</hyperlink></bullet></bulletlist>"
  },
  {
   "requirement_description": "Requires 4: <forester></forester> <hyperlink>Foresters</hyperlink><br></br><br></br>Only 1 Guild allowed per city.",
@@ -2347,21 +2336,21 @@
   "boost_requirements": "Build 4 <hyperlink><forester></forester> Forester</hyperlink>"
  },
  {
-  "requirement_description": "Requires 2: <farm></farm> <hyperlink>Farms</hyperlink>.",
+  "requirement_description": "",
   "cost": "170<gold></gold> 450<structureprod></structureprod> ",
-  "prediction_description": "+30 <food></food> <hyperlink>Food</hyperlink> income",
+  "prediction_description": "+45 <food></food> <hyperlink>Food</hyperlink> income",
   "resid": 4282082401242,
   "id": "estate_hall",
   "description": "",
   "name": "Estate Hall",
   "icon": "estate_hall",
   "is_sector_upgrade": false,
-  "boost_requirements": "Build 3 <hyperlink><forester></forester> Forester</hyperlink>"
+  "boost_requirements": "<bulletlist><bullet>Build 3 <hyperlink><forester></forester> Forester</hyperlink></bullet><bullet>Build 2 <hyperlink><farms></farms> Farm</hyperlink></bullet></bulletlist>"
  },
  {
   "requirement_description": "",
   "cost": "60<gold></gold> 130<structureprod></structureprod> ",
-  "prediction_description": "+10 <food></food> <hyperlink>Food</hyperlink> income",
+  "prediction_description": "+15 <food></food> <hyperlink>Food</hyperlink> income",
   "resid": 4282082401233,
   "id": "store_house",
   "description": "",
@@ -2551,7 +2540,7 @@
   "boost_requirements": "Build 1 <hyperlink><quarry></quarry> Quarry</hyperlink>"
  },
  {
-  "requirement_description": "Requires 2: <forester></forester> <hyperlink>Foresters</hyperlink>",
+  "requirement_description": "",
   "cost": "170<gold></gold> 450<structureprod></structureprod> ",
   "prediction_description": "+30 <unitprod></unitprod> <hyperlink>Draft</hyperlink> income",
   "resid": 4041564233887,
@@ -2560,12 +2549,12 @@
   "name": "Armory",
   "icon": "armory",
   "is_sector_upgrade": false,
-  "boost_requirements": "Build 3 <hyperlink><quarry></quarry> Quarry</hyperlink>"
+  "boost_requirements": "<bulletlist><bullet>Build 3 <hyperlink><quarry></quarry> Quarry</hyperlink></bullet><bullet>Build 2 <hyperlink><forester></forester> Forester</hyperlink></bullet></bulletlist>"
  },
  {
   "requirement_description": "Requires 4: <farm></farm> <hyperlink>Farms</hyperlink><br></br><br></br>Only 1 Guild allowed per city.",
   "cost": "280<gold></gold> 750<structureprod></structureprod> ",
-  "prediction_description": "+10 <food></food> <hyperlink>Food</hyperlink> income per <farms></farms> Farm: ",
+  "prediction_description": "+15 <food></food> <hyperlink>Food</hyperlink> income per <farms></farms> Farm: ",
   "resid": 4041564233665,
   "id": "farmers_guild",
   "description": "",

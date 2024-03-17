@@ -707,7 +707,7 @@
     "description": "Start with an extra Scout Unit."
    },
    {
-    "empire_progression_slug": "court_of_whispers"
+    "empire_progression_slug": "all-seeing"
    }
   ],
   "icon": "_pantheon___silver_tongued"
@@ -1150,7 +1150,7 @@
   "screen_description": "",
   "effect_descriptions": [
    {
-    "name": "+3 Status Resistance."
+    "name": "+4 Status Resistance."
    }
   ],
   "enabled": true,
@@ -1564,7 +1564,7 @@
   "screen_description": "",
   "effect_descriptions": [
    {
-    "name": "Summoning Spells cost -50% <mana></mana> Mana and -25% <caststrategic></caststrategic> World Map Casting Points to cast."
+    "name": "Summoning Spells cost -50% <mana></mana> Mana and <caststrategic></caststrategic> World Map Casting Points to cast."
    },
    {
     "name": "Summoned Magic Origin units have +1 Rank."

@@ -18,17 +18,17 @@
             "icon": "town_hall_i_town_center",
             "is_sector_upgrade": false,
             "cost": "",
-            "prediction_description": "<bulletlist><bullet>+1 <hero></hero> Hero Cap</bullet><bullet>+20 <draft></draft> Draft income</bullet><bullet>+40 <food></food> Food income</bullet><bullet>+20 <production></production> Production income</bullet></bulletlist>",
+            "prediction_description": "<bulletlist><bullet>+20 <food></food> Food income</bullet><bullet>+50% <food></food> Food income multiplier</bullet><bullet>+20 <production></production> Production income</bullet><bullet>+20 <unitprod></unitprod> Draft income</bullet></bulletlist><bullet>+10 <gold></gold> Gold income</bullet><bullet>+10 <happiness></happiness> <hyperlink>City Stability</hyperlink> income</bullet></bulletlist>",
         };
         var throne = {
             "requirement_description": "",
             "id": "throne",
-            "description": "An Empire can only have one Throne. If your Ruler is defeated in Combat, they will respawn here after 3<turn></turn> Turns. If your Ruler is defeated and your Throne is taken, your Empire is defeated.",
+            "description": "An Empire can only have one Throne. If your Ruler is defeated in Combat, they will respawn here after 1 <turn></turn> Turns. If your Ruler is defeated and your Throne is taken, your Empire is defeated.",
             "name": "Throne",
             "icon": "throne",
             "is_sector_upgrade": false,
             "cost": "",
-            "prediction_description": "<bulletlist><bullet>Unlock Fortification</bullet><bullet>+20 <garrison></garrison> Fortification Health</bullet><bullet>+60 <knowledge></knowledge> Knowledge income</bullet><bullet>+40 <influence></influence> Imperium income</bullet><bullet>+120 <gold></gold> Gold income</bullet><bullet>+20 <mana></mana> Mana income</bullet></bulletlist>",
+            "prediction_description": "<bulletlist><bullet>Unlock Fortification</bullet><bullet>+20 <garrison></garrison> Fortification Health</bullet><bullet>+60 <knowledge></knowledge> Knowledge income</bullet><bullet>+90 <gold></gold> Gold income</bullet><bullet>+30 <mana></mana> Mana income</bullet></bulletlist>",
         };
 
 
@@ -235,9 +235,9 @@
 
 
 
-        $("#body").ready(function() {
+        $("#body").ready(function () {
 
-            $("#header").load("/cbm/HTML/header.html", function() {
+            $("#header").load("/cbm/HTML/header.html", function () {
                 CheckData();
             });
         });
@@ -247,11 +247,8 @@
 
             SetCategories();
             SetLevelUpStuff();
-
+            setupLinks();
         }
-
-
-
 
         function SetUpStructureNode(structureInfo, splits, type) {
 
@@ -457,10 +454,10 @@
 
             spa2.innerHTML += structureInfo.description + "<br>";
 
-            if (structureInfo.id.indexOf("town_hall_iii_") != -1) {
+            if (structureInfo.id.indexOf("armory") != -1) {
                 description += "<br><br> Unlocks T3 Culture Units";
             }
-            if (structureInfo.id.indexOf("town_hall_ii_") != -1) {
+            if (structureInfo.id.indexOf("workshop") != -1 || structureInfo.id.indexOf("evocators_abode") != -1) {
                 description += "<br><br> Unlocks T2 Culture Units";
             }
 
@@ -556,10 +553,6 @@
                     if (jsonStructureUpgrades[i].id === structure) {
                         SetUpStructureNode(jsonStructureUpgrades[i], splits, type);
 
-
-
-
-
                     }
 
                 }
@@ -568,11 +561,49 @@
         }
 
         function drawLine(topPos, leftPos, angle, width) {
+            var holder = document.getElementById("treeHoldergeneral");
             var connectionLine = document.createElement("DIV");
 
             connectionLine.setAttribute("style", "top:" + topPos + "px; left:" + leftPos + "px; rotate:" + angle + "deg; background-color:" + "white" + "; width: +" + width + "px");
             connectionLine.className = "branch-line";
+            holder.appendChild(connectionLine);
             return connectionLine;
+        }
+
+        //x and y are node positions on the grid, x2 > x1, yShift is additiona
+        function createHorizontalConnection(x1, x2, y, yShift = 0) {
+            drawLine(y * 120 - 35 + yShift, 320 * x1 - 90, 0, 320 * (x2 - x1 - 1) + 100);
+        }
+
+        function createUniversalConnection(x1, y1, x2, y2) {
+
+        }
+
+        function setupLinks() {
+            drawLine(75, 125, 0, 525);
+            drawLine(75, 125, 90, 500);
+            createHorizontalConnection(3, 10, 1);
+
+            createHorizontalConnection(1, 6, 5);
+            for (var i = 5; i < 11; i++) {
+                connectTownHalls(i);
+            }
+            var incomeBuildingRows = [6, 8, 11, 13, 15, 20];
+            incomeBuildingRows.forEach(element => {
+                connectIncomeBuildings(element);
+            });
+        }
+
+        function connectTownHalls(row) {
+            createHorizontalConnection(6, 9, row);
+            createHorizontalConnection(9, 10, row, -30);
+            createHorizontalConnection(9, 12, row, 20);
+        }
+
+        function connectIncomeBuildings(row) {
+            createHorizontalConnection(2, 3, row);
+            createHorizontalConnection(3, 4, row);
+            createHorizontalConnection(4, 5, row);
         }
 
         function SetHeaderNodes(keyword, type) {
@@ -752,7 +783,7 @@
         height: auto;
         width: auto;
         background-color: black;
-        background-image: url(/cbm/Icons/Interface/citytree.png);
+        /*background-image: url(/cbm/Icons/Interface/citytree.png);*/
         background-size: 5584px;
         background-repeat: no-repeat;
         border-width: 5px;
@@ -828,7 +859,6 @@
         filter: brightness(150%);
 
     }
-
 </style>
 <footer>
     <br>

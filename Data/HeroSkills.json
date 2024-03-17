@@ -1683,17 +1683,6 @@
   "resid": 4514010630552
  },
  {
-  "id": "grim_executioner",
-  "category_name": "Warfare",
-  "group_name": "Dark Culture - Hero Skill Group",
-  "name": "Grim Executioner",
-  "level_name": "<hyperlink>Novice Hero Skill</hyperlink>",
-  "icon": "grim_executioner",
-  "type": "normal",
-  "resid": 4514010630533,
-  "description": "When this unit kills another, it gains 3 Fortune."
- },
- {
   "id": "sundering_curse",
   "category_name": "Battle Magic",
   "group_name": "Dark Culture - Hero Skill Group",
@@ -2963,7 +2952,7 @@
   "type": "normal",
   "resid": 4273492487187,
   "DLC": "DRAGONLORDS ",
-  "description": "When Governor, grants the city:<bulletlist><bullet>+15 <knowledge></knowledge><hyperlink>Knowledge</hyperlink></bullet><bullet>+20 <happiness></happiness> <hyperlink>City Stability</hyperlink></bullet><bullet>+10 <garrison></garrison><hyperlink>Fortification Health</hyperlink></bullet></bulletlist>"
+  "description": "When Governor, grants the city:<bulletlist><bullet>+15 <knowledge></knowledge><hyperlink>Knowledge</hyperlink></bullet><bullet>+20 <happiness></happiness> <hyperlink>City Stability</hyperlink></bullet><bullet>+10 <garrison></garrison><hyperlink>Fortification Health</hyperlink></bullet></bulletlist><br></br>For Dark culture reduces <happiness></happiness> <hyperlink>City Stability</hyperlink> by the same amount instead of increasing it."
  },
  {
   "id": "ancient_governor_i",
@@ -2975,7 +2964,7 @@
   "type": "normal",
   "resid": 4273492487183,
   "DLC": "DRAGONLORDS ",
-  "description": "When Governor, grants the city:<bulletlist><bullet>+10 <knowledge></knowledge><hyperlink>Knowledge</hyperlink></bullet><bullet>+15 <happiness></happiness> <hyperlink>City Stability</hyperlink></bullet><bullet>+10 <garrison></garrison><hyperlink>Fortification Health</hyperlink></bullet></bulletlist>"
+  "description": "When Governor, grants the city:<bulletlist><bullet>+10 <knowledge></knowledge><hyperlink>Knowledge</hyperlink></bullet><bullet>+15 <happiness></happiness> <hyperlink>City Stability</hyperlink></bullet><bullet>+10 <garrison></garrison><hyperlink>Fortification Health</hyperlink></bullet></bulletlist><br></br>For Dark culture reduces <happiness></happiness> <hyperlink>City Stability</hyperlink> by the same amount instead of increasing it."
  },
  {
   "id": "tail_swipe",
@@ -3822,8 +3811,23 @@
   "resid": 4264902531958
  },
  {
+  "id": "hex",
+  "category_name": "Battle Magic",
+  "group_name": "Dark Culture - Hero Skill Group",
+  "name": "Hex",
+  "level_name": "<hyperlink>Novice Hero Skill</hyperlink>",
+  "icon": "hex_hex",
+  "type": "normal",
+  "abilities": [
+   {
+    "slug": "hex_hex"
+   }
+  ],
+  "resid": -453398252667010630
+ },
+ {
   "id": "general",
-  "category_name": "Path of Champion",
+  "category_name": "Origin",
   "group_name": "Generic Hero Skills",
   "name": "General",
   "level_name": "<hyperlink>Novice Hero Skill</hyperlink>",
@@ -3838,18 +3842,18 @@
  },
  {
   "id": "emperor",
-  "category_name": "Path of Champion",
+  "category_name": "Origin",
   "group_name": "Generic Hero Skills",
   "name": "Emperor",
   "level_name": "<hyperlink>Novice Hero Skill</hyperlink>",
   "icon": "emperor",
   "type": "normal",
   "resid": -453398252667010806,
-  "description": "Throne city gains:<bulletlist><bullet>+20% <food></food> <hyperlink>Food</hyperlink>, <structureprod></structureprod> <hyperlink>Production</hyperlink>, <unitprod></unitprod> <hyperlink>Draft</hyperlink>, <gold></gold> <hyperlink>Gold</hyperlink> and <mana></mana> <hyperlink>Mana</hyperlink> income.</bullet><bullet>+40 <happiness></happiness> <hyperlink>City Stability</hyperlink>.</bullet></bulletlist>"
+  "description": "Throne city gains:<bulletlist><bullet>+15% <food></food> <hyperlink>Food</hyperlink>, <structureprod></structureprod> <hyperlink>Production</hyperlink>, <unitprod></unitprod> <hyperlink>Draft</hyperlink>, <gold></gold> <hyperlink>Gold</hyperlink> and <mana></mana> <hyperlink>Mana</hyperlink> income.</bullet><bullet>+30 <happiness></happiness> <hyperlink>City Stability</hyperlink>.</bullet></bulletlist>"
  },
  {
   "id": "hero",
-  "category_name": "Path of Champion",
+  "category_name": "Origin",
   "group_name": "Generic Hero Skills",
   "name": "Hero",
   "level_name": "<hyperlink>Novice Hero Skill</hyperlink>",

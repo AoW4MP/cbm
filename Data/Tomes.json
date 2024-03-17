@@ -34,8 +34,7 @@
     "description": "<bulletlist><bullet>+12 <mana></mana> <hyperlink>Mana</hyperlink></bullet><bullet>For each Stormport built in your empire, gain:<bulletlist></bullet><bullet>+4 <mana></mana> <hyperlink>Mana</hyperlink></bullet><bullet>+3 <gold></gold> <hyperlink>Gold</hyperlink></bullet></bulletlist></bulletlist><br></br>Requires a Coastal <hyperlink>Province Improvement</hyperlink> in order to build.",
     "name": "Stormport",
     "tier": 7,
-    "type": "<hyperlink>City Structure</hyperlink>",
-    "upgrade_slug": "stormport"
+    "type": "<hyperlink>City Structure</hyperlink>"
    },
    {
     "description": "Target owned City gains:<bulletlist><bullet>Double the base resources from Coastal <hyperlink>Province Improvement</hyperlink>.</bullet><bullet>-10 <happiness></happiness> <hyperlink>City Stability</hyperlink>.</bullet></bulletlist>",
@@ -2141,7 +2140,7 @@
     "type": "<caststrategic></caststrategic> <hyperlink>Summon Spell</hyperlink>"
    },
    {
-    "description": "Target friendly Magic Origin unit gains:<bulletlist><bullet>5 Strengthened.</bullet><bullet>3 Bolstered Defense.</bullet><bullet>3 Bolstered Resistance.</bullet><bullet>Static Charge for <turn></turn> Turns.</bullet></bulletlist>",
+    "description": "Friendly Magic Origin units in a 1-hex radius gain:<bulletlist><bullet>3 Strengthened.</bullet><bullet>2 Bolstered Defense.</bullet><bullet>2 Bolstered Resistance.</bullet><bullet>Static Charge for <turn></turn> Turns.</bullet></bulletlist>",
     "name": "Arcane Supercharge",
     "spell_slug": "arcane_supercharge",
     "tier": 3,
@@ -2368,7 +2367,7 @@
   "icon": "tome_of_evocation",
   "skills": [
    {
-    "description": "In target enemy army all units suffer -3 <defenselightning></defenselightning> <hyperlink>Lightning Resistance</hyperlink> for 1 <hyperlink>World Map</hyperlink> <turn></turn> Turns.</bulletlist>",
+    "description": "In target enemy army all units suffer -2 <defenselightning></defenselightning> <hyperlink>Lightning Resistance</hyperlink> for 1 <hyperlink>World Map</hyperlink> <turn></turn> Turns.</bulletlist>",
     "name": "Lightning Torrent",
     "spell_slug": "lightning_torrent",
     "tier": 3,
@@ -2932,7 +2931,7 @@
     "type": "<caststrategic></caststrategic> <hyperlink>Summon Spell</hyperlink>"
    },
    {
-    "description": "Makes the target race more bestial and connected to animals. When adjacent to a friendly Animal, both units are granted:<bulletlist><bullet>+10% damage.</bullet><bullet>+10% Critical Hit chance.</bullet></bulletlist>",
+    "description": "Makes the target race more bestial and connected to animals. When adjacent to a friendly Animal, both units are granted:<bulletlist><bullet>+15% damage.</bullet><bullet>+15% Critical Hit chance.</bullet></bulletlist>",
     "name": "Animal Kinship",
     "spell_slug": "animal_kinship",
     "tier": 2,
@@ -3837,10 +3836,10 @@
     "slug": "cull_the_weak"
    },
    {
-    "slug": "grim_executioner"
+    "slug": "sundering_curse"
    },
    {
-    "slug": "sundering_curse"
+    "slug": "hex"
    }
   ],
   "tier": 0,

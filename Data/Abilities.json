@@ -136,7 +136,7 @@
     "note": "Cannot be used when within an enemy <hyperlink>Zone of Control</hyperlink>."
    }
   ],
-  "description": "Deal damage to target enemy with a base % of inflicting a random negative status effect.",
+  "description": "Deal damage to target enemy with a base 90% of inflicting a random negative status effect.",
   "name": "Fey Trick",
   "slug": "fey_trick_mistling",
   "damage": "8<damagephysical></damagephysical> 8<damageblight></damageblight> 8<damagelightning></damagelightning> ",
@@ -154,7 +154,7 @@
   "icon": "fey_trick_mistling"
  },
  {
-  "description": "A Fey unit with:<bulletlist><bullet>+4 <defensespirit></defensespirit> <hyperlink>Spirit Resistance</hyperlink></bullet><bullet>-2 <defenseblight></defenseblight> <hyperlink>Blight Resistance</hyperlink></bullet><bullet>Fey Guile</bullet><bullet>The ability to ignore:<bulletlist></bullet><bullet>Vision penalties from Misty.</bullet><bullet>Accuracy penalties from Clinging Mist.</bullet></bulletlist>",
+  "description": "A Fey unit with:<bulletlist><bullet>+2 <defensespirit></defensespirit> <hyperlink>Spirit Resistance</hyperlink></bullet><bullet>-2 <defenseblight></defenseblight> <hyperlink>Blight Resistance</hyperlink></bullet><bullet>Fey Guile</bullet><bullet>The ability to ignore:<bulletlist></bullet><bullet>Vision penalties from Misty.</bullet><bullet>Accuracy penalties from Clinging Mist.</bullet></bulletlist>",
   "name": "Fey",
   "slug": "fey",
   "icon": "fey"
@@ -184,10 +184,10 @@
   "icon": "trail_of_mists"
  },
  {
-  "damage": "<xpCol>4<damagespirit></damagespirit></xpCol>",
+  "damage": "<xpCol>2<damagespirit></damagespirit></xpCol>",
   "description": "",
   "name": "<xpCol>Spirit Resistance</xpCol>",
-  "slug": "spirit_resistance_4"
+  "slug": "spirit_resistance_2"
  },
  {
   "damage": "<fireCol>2<damageblight></damageblight></fireCol>",
@@ -203,7 +203,7 @@
     "count": 1
    }
   ],
-  "description": "Strikes target enemy unit and deal % of the damage to up to  other enemy units within  hexes.",
+  "description": "Strikes target enemy unit and deal 20% of the damage to up to 2 other enemy units within 2 hexes.",
   "name": "Storm Strikes",
   "slug": "melee_strike_stormbringer",
   "damage": "7<damagephysical></damagephysical> 7<damagelightning></damagelightning> ",
@@ -243,10 +243,13 @@
   ],
   "accuracy": "Always Hits",
   "actionPoints": "<singleuseaction></singleuseaction>",
-  "range": "3",
+  "range": "2",
   "notes": [
    {
     "note": "Cannot be used when within an enemy <hyperlink>Zone of Control</hyperlink>."
+   },
+   {
+    "note": "Cooldown: 1 <turn></turn>"
    }
   ],
   "icon": "fey_trick_mistling"
@@ -466,7 +469,7 @@
   "icon": "mythic_unit"
  },
  {
-  "description": "Unit has +4 <defense></defense> <hyperlink>Defense</hyperlink> against <hyperlink>Physical Ranged</hyperlink> attacks.",
+  "description": "Unit has +2 <defense></defense> <hyperlink>Defense</hyperlink> against <hyperlink>Physical Ranged</hyperlink> attacks.",
   "name": "Reinforced",
   "slug": "reinforced",
   "icon": "reinforced"
@@ -686,6 +689,12 @@
   "icon": "status_effect_immunity_diseased"
  },
  {
+  "description": "Moving through Swamps costs 6 <hyperlink>Move Points</hyperlink> instead of 8.",
+  "name": "Swamp Walk",
+  "slug": "swamp_walk",
+  "icon": "swamp_walk"
+ },
+ {
   "damage": "<xpCol>4<damageblight></damageblight></xpCol>",
   "description": "",
   "name": "<xpCol>Blight Resistance</xpCol>",
@@ -721,6 +730,12 @@
   "range": "1",
   "notes": [],
   "icon": "melee_strike_sabertooth"
+ },
+ {
+  "description": "Moving through Sand costs 5 <hyperlink>Move Points</hyperlink> instead of 6.",
+  "name": "Sand Walk",
+  "slug": "sand_walk",
+  "icon": "sand_walk"
  },
  {
   "description": "Unit gains Frenzy when in a province with Sand terrain.",
@@ -765,6 +780,12 @@
   "name": "Wolf Primal Connection",
   "slug": "wolf_primal_connection",
   "icon": "crocodile_primal_connection"
+ },
+ {
+  "damage": "<xpCol>4<damagespirit></damagespirit></xpCol>",
+  "description": "",
+  "name": "<xpCol>Spirit Resistance</xpCol>",
+  "slug": "spirit_resistance_4"
  },
  {
   "modifiers": [],
@@ -819,7 +840,7 @@
     "count": 1
    }
   ],
-  "description": "Strikes target enemy unit and deals an extra  <damageFire></damageFire> <hyperlink>Fire Damage</hyperlink> to another enemy unit within  hexes.",
+  "description": "Strikes target enemy unit and deals an extra 4 <damageFire></damageFire> <hyperlink>Fire Damage</hyperlink> to another enemy unit within 2 hexes.",
   "name": "Melee Strike",
   "slug": "melee_strike_primal_sabertooth",
   "damage": "12<damagefire></damagefire> ",
@@ -845,7 +866,7 @@
     "count": 1
    }
   ],
-  "description": "Jump and deal damage to target unit. Deal 50% of the damage to another enemy unit up to  hexes away.",
+  "description": "Jump and deal damage to target unit. Deal 50% of the damage to another enemy unit up to 2 hexes away.",
   "name": "Pounce",
   "slug": "pounce_primal_sabertooth",
   "damage": "14<damagefire></damagefire> ",
@@ -968,7 +989,7 @@
     "count": 1
    }
   ],
-  "description": "Deal damage to target unit. Adjacent enemy units sustain % of the damage.",
+  "description": "Deal damage to target unit. Adjacent enemy units sustain 50% of the damage.",
   "name": "Glacial Stomp",
   "slug": "stomp_primal_mammoth",
   "damage": "20<damagefrost></damagefrost> ",
@@ -1132,7 +1153,7 @@
   ],
   "accuracy": "Always Hits",
   "actionPoints": "<singleuseaction></singleuseaction>",
-  "range": "3",
+  "range": "2",
   "notes": [
    {
     "note": "Cooldown: 2 <turn></turn>"
@@ -1256,6 +1277,9 @@
   "notes": [
    {
     "note": "Cannot be used when within an enemy <hyperlink>Zone of Control</hyperlink>."
+   },
+   {
+    "note": "Cooldown: 4 <turn></turn>"
    }
   ],
   "description": "<bulletlist><bullet>Summon a <hyperlink>Primal Crocodile</hyperlink> onto target hex.<bulletlist></bullet><bullet>When summoned on favored terrain gains Frenzy.</bullet><bullet>Requires at least 1 stack of Fury of the Mire Crocodile.</bullet><bullet>Consumes any remaining stacks of Fury of the Mire Crocodile on use.</bullet></bulletlist></bulletlist><br></br><br></br>This summon lasts for 3 <turn></turn> Turns.",
@@ -1912,7 +1936,7 @@
     "note": "Cannot be used when within an enemy <hyperlink>Zone of Control</hyperlink>."
    }
   ],
-  "description": "Apply Marked to the target, then enter Defense Mode.",
+  "description": "Apply 2 Marked and 1 Sundered Defense to the target, then enter Defense Mode.",
   "name": "Take Aim",
   "slug": "take_aim_magelock",
   "damage": "",
@@ -2763,7 +2787,7 @@
     "count": 1
    }
   ],
-  "description": "Deal damage to target unit. Adjacent enemy units sustain % of the damage.",
+  "description": "Deal damage to target unit. Adjacent enemy units sustain 50% of the damage.",
   "name": "Infernal Stomp",
   "slug": "stomp_infernal_juggernaut",
   "damage": "30<damagefire></damagefire> ",
@@ -5290,6 +5314,12 @@
   "icon": "mountain_camouflage"
  },
  {
+  "description": "Moving through Mountains and Cliffs costs 8 <hyperlink>Move Points</hyperlink> instead of 16.",
+  "name": "Mountain Walk",
+  "slug": "mountain_walk",
+  "icon": "mountain_walk"
+ },
+ {
   "modifiers": [
    {
     "description": "Base 60% chance of inflicting Burning for 3 <turn></turn> Turns.",
@@ -6789,12 +6819,6 @@
   "icon": "celestial"
  },
  {
-  "damage": "<xpCol>2<damagespirit></damagespirit></xpCol>",
-  "description": "",
-  "name": "<xpCol>Spirit Resistance</xpCol>",
-  "slug": "spirit_resistance_2"
- },
- {
   "modifiers": [
    {
     "description": "Target gets -3 <happiness></happiness> <hyperlink>Morale</hyperlink>.",
@@ -7017,7 +7041,7 @@
  },
  {
   "notes": [],
-  "description": "Friendly units within 2 hexes:<bulletlist><bullet>Heal +5 <hyperlink><temphp></temphp> Temporary Hit Points</hyperlink>.</bullet><bullet>Gain 5 <happiness></happiness> <hyperlink>Morale</hyperlink>.</bullet></bulletlist>",
+  "description": "Friendly units within 2 hexes:<bulletlist><bullet>Heal +15 <hyperlink><temphp></temphp> Temporary Hit Points</hyperlink>.</bullet><bullet>Gain 10 <happiness></happiness> <hyperlink>Morale</hyperlink>.</bullet></bulletlist>",
   "name": "Divine Beacon's Grace",
   "slug": "divine_beacons_grace_divine_beacon",
   "damage": "",
@@ -10017,6 +10041,12 @@
    }
   ],
   "icon": "shoot_bow_skeleton_archer"
+ },
+ {
+  "description": "Moving over Roads costs 3 <hyperlink>Move Points</hyperlink> instead of 5.",
+  "name": "Road Walk",
+  "slug": "road_walk",
+  "icon": "road_walk"
  },
  {
   "modifiers": [
@@ -13824,6 +13854,26 @@
   "icon": "quake_stone_spirit"
  },
  {
+  "notes": [
+   {
+    "note": "Cooldown: 2 <turn></turn>"
+   }
+  ],
+  "description": "Target becomes Weakened.",
+  "name": "Hex",
+  "slug": "hex_hex",
+  "damage": "",
+  "requisites": [
+   {
+    "requisite": "Debuff"
+   }
+  ],
+  "accuracy": "Always Hits",
+  "actionPoints": "<freeaction></freeaction>",
+  "range": "4",
+  "icon": "hex_hex"
+ },
+ {
   "description": "While army leader, all non-hero units in the army gain:<bulletlist><bullet>+10% Damage.</bullet><bullet>+1 <defense></defense> <hyperlink>Defense</hyperlink> and <resistance></resistance> <hyperlink>Resistance</hyperlink>.</bullet><bullet>+5 <hyperlink><hp></hp> Hit Points</hyperlink>.</bullet></bulletlist>",
   "name": "General",
   "slug": "general",
@@ -14098,6 +14148,9 @@
   "notes": [
    {
     "note": "Cannot be used when within an enemy <hyperlink>Zone of Control</hyperlink>."
+   },
+   {
+    "note": "Cooldown: 4 <turn></turn>"
    }
   ],
   "description": "<bulletlist><bullet>Summon a <hyperlink>Primal Spider</hyperlink> onto target hex.<bulletlist></bullet><bullet>When summoned on favored terrain gains Frenzy.</bullet><bullet>Requires at least 1 stack of Fury of the Tunneling Spider.</bullet><bullet>Consumes any remaining stacks of Fury of the Tunneling Spider on use.</bullet></bulletlist></bulletlist><br></br><br></br>This summon lasts for 3 <turn></turn> Turns.",
@@ -14163,6 +14216,9 @@
   "notes": [
    {
     "note": "Cannot be used when within an enemy <hyperlink>Zone of Control</hyperlink>."
+   },
+   {
+    "note": "Cooldown: 4 <turn></turn>"
    }
   ],
   "description": "<bulletlist><bullet>Summon a <hyperlink>Primal Serpent</hyperlink> onto target hex.<bulletlist></bullet><bullet>When summoned on favored terrain gains Frenzy.</bullet><bullet>Requires at least 1 stack of Fury of the Dune Serpent.</bullet><bullet>Consumes any remaining stacks of Fury of the Dune Serpent on use.</bullet></bulletlist></bulletlist><br></br><br></br>This summon lasts for 3 <turn></turn> Turns.",
@@ -14228,6 +14284,9 @@
   "notes": [
    {
     "note": "Cannot be used when within an enemy <hyperlink>Zone of Control</hyperlink>."
+   },
+   {
+    "note": "Cooldown: 4 <turn></turn>"
    }
   ],
   "description": "<bulletlist><bullet>Summon a <hyperlink>Primal Mammoth</hyperlink> onto target hex.<bulletlist></bullet><bullet>When summoned on favored terrain gains Frenzy.</bullet><bullet>Requires at least 1 stack of Fury of the Glacial Mammoth.</bullet><bullet>Consumes any remaining stacks of Fury of the Glacial Mammoth on use.</bullet></bulletlist></bulletlist><br></br><br></br>This summon lasts for 3 <turn></turn> Turns.",
@@ -14293,6 +14352,9 @@
   "notes": [
    {
     "note": "Cannot be used when within an enemy <hyperlink>Zone of Control</hyperlink>."
+   },
+   {
+    "note": "Cooldown: 4 <turn></turn>"
    }
   ],
   "description": "<bulletlist><bullet>Summon a <hyperlink>Primal Wolf</hyperlink> onto target hex.<bulletlist></bullet><bullet>When summoned on favored terrain gains Frenzy.</bullet><bullet>Requires at least 1 stack of Fury of the Sylvan Wolf.</bullet><bullet>Consumes any remaining stacks of Fury of the Sylvan Wolf on use.</bullet></bulletlist></bulletlist><br></br><br></br>This summon lasts for 3 <turn></turn> Turns.",
@@ -14358,6 +14420,9 @@
   "notes": [
    {
     "note": "Cannot be used when within an enemy <hyperlink>Zone of Control</hyperlink>."
+   },
+   {
+    "note": "Cooldown: 4 <turn></turn>"
    }
   ],
   "description": "<bulletlist><bullet>Summon a <hyperlink>Primal Crocodile</hyperlink> onto target hex.<bulletlist></bullet><bullet>When summoned on favored terrain gains Frenzy.</bullet><bullet>Requires at least 1 stack of Fury of the Mire Crocodile.</bullet><bullet>Consumes any remaining stacks of Fury of the Mire Crocodile on use.</bullet></bulletlist></bulletlist><br></br><br></br>This summon lasts for 3 <turn></turn> Turns.",
@@ -14423,6 +14488,9 @@
   "notes": [
    {
     "note": "Cannot be used when within an enemy <hyperlink>Zone of Control</hyperlink>."
+   },
+   {
+    "note": "Cooldown: 4 <turn></turn>"
    }
   ],
   "description": "<bulletlist><bullet>Summon a <hyperlink>Primal Sabertooth</hyperlink> onto target hex.<bulletlist></bullet><bullet>When summoned on favored terrain gains Frenzy.</bullet><bullet>Requires at least 1 stack of Fury of the Ash Sabertooth.</bullet><bullet>Consumes any remaining stacks of Fury of the Ash Sabertooth on use.</bullet></bulletlist></bulletlist><br></br><br></br>This summon lasts for 3 <turn></turn> Turns.",
@@ -14488,6 +14556,9 @@
   "notes": [
    {
     "note": "Cannot be used when within an enemy <hyperlink>Zone of Control</hyperlink>."
+   },
+   {
+    "note": "Cooldown: 4 <turn></turn>"
    }
   ],
   "description": "<bulletlist><bullet>Summon a <hyperlink>Primal Crow</hyperlink> onto target hex.<bulletlist></bullet><bullet>When summoned on favored terrain gains Frenzy.</bullet><bullet>Requires at least 1 stack of Fury of the Storm Crow.</bullet><bullet>Consumes any remaining stacks of Fury of the Storm Crow on use.</bullet></bulletlist></bulletlist><br></br><br></br>This summon lasts for 3 <turn></turn> Turns.",
